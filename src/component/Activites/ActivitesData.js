@@ -1,23 +1,18 @@
 import React from 'react'
 import '../css/activity.css'
- 
+import nac from '../images/NAC.jpg'
+
 export default function activitesdata(props) {
   return (
-    <div className="row">
-        <div className="col-6">
-        <div className="card">
-        <div className="introofevent" id="introofevent">
-          <p>
-          {props.data.des}
-          </p>
-         
-        </div>
-        <img src={props.data.image} alt="Loading" />
-        <div className="intro">
-          <h3>{props.data.name}</h3>
-        </div>
-      </div>
-        </div>
-    </div>
+    <>
+      <div className='col-4'>
+  <div className="flipcard">
+  <div className="inner">
+    <div className="front" style={{backgroundImage: `url(${nac})`}}>{props.data.name}</div>
+    <div className="back">{props.data.des}</div>
+  </div>
+</div>
+</div>
+</>
   )
 }

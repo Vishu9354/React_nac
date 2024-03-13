@@ -10,7 +10,7 @@ export default function RecentEventItem(props) {
   <div className="maincont">
     <div className="title">Recent Events</div>
     <div className="container">
-      <div id="slide">
+      <div id="slide" className='slide'>
         <div
           className="item"
           style={{
@@ -125,7 +125,7 @@ export default function RecentEventItem(props) {
         </div>
       </div>
       <div className="buttons">
-        <button id="prevs">
+        <button id="prevs" className='prevs'>
           <span
             className="carousel-control-prev-icon"
             id="prev"
@@ -133,7 +133,7 @@ export default function RecentEventItem(props) {
           />
           <span className="visually-hidden">Previous</span>
         </button>
-        <button id="nexts">
+        <button id="nexts" className='nexts'>
           <span
             className="carousel-control-next-icon"
             id="prev"

@@ -122,6 +122,7 @@ margin: 0 0 10px;
 }
 .item:nth-child(5){
     left:calc(50% + 440px);
+    display: none;
 }
 .item:nth-child(n+6){
     /* left:calc(50% + 660px); */
