@@ -3,6 +3,16 @@ import nac from '../images/NAC.jpg'
 import '../css/home.css'
 import '../js/recentpage.js'
 export default function RecentEventItem(props) {
+  const handleNextClick = () => {
+    let lists = document.querySelectorAll('.item');
+    document.getElementById('slide').appendChild(lists[0]);
+  };
+
+  const handlePrevClick = () => {
+    let lists = document.querySelectorAll('.item');
+    document.getElementById('slide').prepend(lists[lists.length - 1]);
+  };
+
   return (
     <>
     {/* <div><h2>{props.data.name}</h2></div> */}
@@ -125,7 +135,7 @@ export default function RecentEventItem(props) {
         </div>
       </div>
       <div className="buttons">
-        <button id="prevs" className='prevs'>
+        <button id="prevs" className='prevs' onClick={handlePrevClick}>
           <span
             className="carousel-control-prev-icon"
             id="prev"
@@ -133,7 +143,7 @@ export default function RecentEventItem(props) {
           />
           <span className="visually-hidden">Previous</span>
         </button>
-        <button id="nexts" className='nexts'>
+        <button id="nexts" className='nexts' onClick={handleNextClick}>
           <span
             className="carousel-control-next-icon"
             id="prev"

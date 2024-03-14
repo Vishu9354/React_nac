@@ -1,12 +1,13 @@
 import React from 'react'
 import logo from './images/NAC_Navbar.png';
+import {Link} from "react-router-dom"
 export default function navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{position:"fixed",zIndex:"11111", width:"100%"}}>
     <div className="container-fluid">
-      <a className="navbar-brand" href="#">
+      <Link className="navbar-brand" to="/">
       <img style={{width: "500px",heigth:"100px",marginLeft:"50px"}} src={logo} alt="anhad" />
-      </a>
+      </Link>
       <button
         className="navbar-toggler"
         type="button"
@@ -20,21 +21,21 @@ export default function navbar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup"style={{marginLeft:"450px"}}>
         <div className="navbar-nav">
-          <a className="nav-link active" aria-current="page" href="#">
+          <Link className="nav-link active" aria-current="page" to="/About">
             About
-          </a>
-          <a className="nav-link" href="#">
+          </Link>
+          <Link className="nav-link" to="/Activites">
             Activites
-          </a>
+          </Link>
           <a className="nav-link" href="#">
             Gallery
           </a>
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="Trek">
             Treks
-          </a>
-          <a className="nav-link" href="#">
+          </Link>
+          <Link className="nav-link" to="Main">
             Team
-          </a>
+          </Link>
           <a className="nav-link" href="#">
             Outreach
           </a>
