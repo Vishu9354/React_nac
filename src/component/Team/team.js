@@ -15,10 +15,13 @@ export default function team(props) {
             {position.teamdetail.map((member, memberIndex) => (
               <div key={memberIndex}>
        <div className="card" style={{ width: "18rem" }}>
-  <img src={nac} className="card-img-top" alt="..." />
+  <img src={member.image} className="card-img-top" alt="..." />
   <div className="card-body">
     <p className="card-text">
     {member.name}
+    </p>
+    <p>
+      
     </p>
   </div>
 </div>

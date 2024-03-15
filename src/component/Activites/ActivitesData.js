@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/activity.css'
-import nac from '../images/NAC.jpg'
+// import nac from '../images/NAC.jpg'
 
 export default function activitesdata(props) {
   return (
@@ -8,8 +8,8 @@ export default function activitesdata(props) {
       <div className='col-4'>
   <div className="flipcard">
   <div className="inner">
-    <div className="front" style={{backgroundImage: `url(${nac})`}}>{props.data.name}</div>
-    <div className="back">{props.data.des}</div>
+    <div className="front" style={{backgroundImage: `url(${props.data.image})`}}>{props.data.name}</div>
+    <div className="back" style={{backgroundImage: `url(${props.data.image})`}}>{props.data.des}</div>
   </div>
 </div>
 </div>

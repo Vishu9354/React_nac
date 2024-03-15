@@ -22,11 +22,15 @@ export default function main() {
           name:"Name of member",
           instagram:'#',
           Linkdin:'#',
+          image:nac,
+
         },
         {
           name:"Name of member",
           instagram:'#',
           Linkdin:'#',
+          image:nac,
+
         },
       ],
     },
