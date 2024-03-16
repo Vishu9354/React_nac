@@ -37,11 +37,7 @@ export default function main() {
     {
       title:"postion 3",
       teamdetail:[
-        {
-          name:"Name of member",
-          instagram:'#',
-          Linkdin:'#',
-        },
+ 
         {
           name:"Name of member",
           instagram:'#',
