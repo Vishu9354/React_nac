@@ -5,10 +5,10 @@ import nac from '../images/NAC.jpg'
 export default function main() {
   const team =[
     {
-      title:"postion 1",
+      title:"inventory",
       teamdetail:[
         {
-          name:"Name of member",
+          name:"choti mataa",
           instagram:'#',
           Linkdin:'#',
           image:nac,
