@@ -32,6 +32,39 @@ export default function main() {
           image:nac,
 
         },
+        {
+          name:"Name of member",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
+        },
+      ],
+    },
+    {
+      title:"postion 2",
+      teamdetail:[
+        {
+          name:"Name of member",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
+        },
+        {
+          name:"Name of member",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
+        },
+        {
+          name:"Name of member",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
+        },
       ],
     },
     {
