@@ -20,11 +20,6 @@
             des:"description of activites",
             image:nac,
         },
-        {
-            name:"name of activies",
-            des:"description of activites",
-            image:nac,
-        },
         ]
 
     return (

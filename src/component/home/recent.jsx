@@ -28,22 +28,6 @@ export default function RecentEventItem(props) {
           }}
         >
           <div className="content">
-            <div className="name"></div>
-            <div className="des">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
-              doloremque itaque optio? Mollitia, sequi recusandae quam ea
-              nostrum assumenda quos voluptate minima, natus voluptatem debitis
-              blanditiis illum amet consectetur impedit.
-            </div>
-          </div>
-        </div>
-        <div
-          className="item"
-          style={{
-            backgroundImage: `url(${nac})`
-          }}
-        >
-          <div className="content">
             <div className="name">Nadcdv</div>
             <div className="des">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam

@@ -1,12 +1,11 @@
 import React from 'react'
-import nac from '../images/NAC.jpg'
 import "../css/trek.css"
 export default function Trekf(props) {
   return (
     <>
     <div className='col-4'>
         <div className="card" style={{width: '18rem'}}>
-        <img src={nac} className="card-img-top" alt="..." />
+        <img src={props.data.image} className="card-img-top" alt="..." />
         <div className="card-body">
           <h5 className="card-title">{props.data.name}</h5>
           <div className="detail">

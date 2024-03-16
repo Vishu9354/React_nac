@@ -1,7 +1,6 @@
 import React from 'react'
-import Teamdata from './teamdata'
 import '../css/team.css'
-import nac from '../images/NAC.jpg'
+
 
 export default function team(props) {
   return (
@@ -10,7 +9,7 @@ export default function team(props) {
 {props.team.map((position, index) => (
         <div key={index} className='main'> 
         <div className='detail'>
-          <div className='title'> {position.title}</div>
+          <div className='title'><h2> {position.title}</h2></div>
           <div className='member'>
             {position.teamdetail.map((member, memberIndex) => (
               <div key={memberIndex}>
