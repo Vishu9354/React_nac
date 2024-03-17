@@ -9,7 +9,13 @@ export default function activitesdata(props) {
   <div className="flipcard">
   <div className="inner">
     <div className="front" style={{backgroundImage: `url(${props.data.image})`}}>{props.data.name}</div>
-    <div className="back" style={{backgroundImage: `url(${props.data.image})`,fontSize:"15px"}}>{props.data.des}</div>
+    <div className="back" >
+    <div class="bg-image"style={{backgroundImage: `url(${props.data.image})`,fontSize:"15px",height:"100%",width:"100%"}}></div>
+
+<div class="bg-text">
+  <p>{props.data.des}</p>
+</div>
+    </div>
   </div>
 </div>
 </div>
