@@ -11,13 +11,12 @@ main{
     display: flex;
 }
 
-
 .card-body .detail{
     display: flex;
     justify-content: space-evenly;
 }
 
- .card{
+.card{
     margin-top: 75px;
     box-shadow: 0 30px 50px #dbdbdb;
     transition: 0.5s ease-in;

@@ -19,7 +19,7 @@ export default function navbar() {
       >
         <span className="navbar-toggler-icon" />
       </button>
-      <div className="collapse navbar-collapse" id="navbarNavAltMarkup"style={{marginLeft:"450px"}}>
+      <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav">
           <Link className="nav-link active" aria-current="page" to="/About">
             About
