@@ -5,32 +5,41 @@ import nac from '../images/NAC.jpg'
 export default function treak() {
     const Trek=[
         {
-            name:"name of Trek",
-            Days:"number of days of trek",
-            size:"group size of trek",
-            difficulty:"difficulty level of trek",
+            name:"NATHATOP TREK",
+            Days:"2",
+            size:"70",
+            difficulty:"Easy-Moderate",
             image: nac
         },
         {
-            name:"name of Trek",
-            Days:"number of days of trek",
-            size:"group size of trek",
-            difficulty:"difficulty level of trek",
+            name:"Kheermala Trek",
+            Days:"1",
+            size:"20",
+            difficulty:"Easy-Moderate",
             image: nac
 
         },     
         {
-            name:"name of Trek",
-            Days:"number of days of trek",
-            size:"group size of trek",
-            difficulty:"difficulty level of trek",
+            name:"Devi Pindi Trek",
+            Days:"1",
+            size:"40",
+            difficulty:"Moderate",
             image: nac
         },        
         {
-            name:"name of Trek",
-            Days:"number of days of trek",
-            size:"group size of trek",
-            difficulty:"difficulty level of trek",
+            name:"Bir Billing",
+            Days:"2",
+            size:"60",
+            difficulty:"Moderate-Difficult",
+            image: nac
+
+        },
+
+        {
+            name:"Kedarnath Trek",
+            Days:"4",
+            size:"17",
+            difficulty:"Moderate-Difficult",
             image: nac
 
         },

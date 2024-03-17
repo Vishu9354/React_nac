@@ -5,10 +5,10 @@ import nac from '../images/NAC.jpg'
 export default function main() {
   const team =[
     {
-      title:"inventory",
+      title:"Faculty In-Charge",
       teamdetail:[
         {
-          name:"choti mataa",
+          name:"Dr.Yogesh Nimdeo",
           instagram:'#',
           Linkdin:'#',
           image:nac,
@@ -16,24 +16,10 @@ export default function main() {
       ],
     },
     {
-      title:"postion 2",
+      title:"Club Co-ordinator",
       teamdetail:[
         {
-          name:"Name of member",
-          instagram:'#',
-          Linkdin:'#',
-          image:nac,
-
-        },
-        {
-          name:"Name of member",
-          instagram:'#',
-          Linkdin:'#',
-          image:nac,
-
-        },
-        {
-          name:"Name of member",
+          name:"AKASH VERMA",
           instagram:'#',
           Linkdin:'#',
           image:nac,
@@ -42,24 +28,10 @@ export default function main() {
       ],
     },
     {
-      title:"postion 2",
+      title:"Head of Social Media and Coverage",
       teamdetail:[
         {
-          name:"Name of member",
-          instagram:'#',
-          Linkdin:'#',
-          image:nac,
-
-        },
-        {
-          name:"Name of member",
-          instagram:'#',
-          Linkdin:'#',
-          image:nac,
-
-        },
-        {
-          name:"Name of member",
+          name:"Yash Bhajbhuje",
           instagram:'#',
           Linkdin:'#',
           image:nac,
@@ -68,13 +40,83 @@ export default function main() {
       ],
     },
     {
-      title:"postion 3",
+      title:"Head of Designing and Content",
       teamdetail:[
  
         {
-          name:"Name of member",
+          name:"Srija Shukla",
           instagram:'#',
           Linkdin:'#',
+        },
+      ],
+    },
+
+    {
+      title:"Head of Event Management",
+      teamdetail:[
+        {
+          name:"Yash Pandey",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
+        },
+        {
+          name:"Khushboo",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
+        },
+        {
+          name:"Abhay Krishan Raghav",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
+        },
+      ],
+    },
+    {
+      title:"Head of Inventory and Logistics",
+      teamdetail:[
+        {
+          name:"Sakshi Srivastava",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
+        },
+        {
+          name:"Dev Banitia",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
+        },
+      ],
+    },
+    {
+      title:"Head of Nature Events",
+      teamdetail:[
+        {
+          name:"Abhay Krishan Raghav",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
+        },
+      ],
+    },
+    {
+      title:"Head of High Altitude Trek",
+      teamdetail:[
+        {
+          name:"Parth Manjare",
+          instagram:'#',
+          Linkdin:'#',
+          image:nac,
+
         },
       ],
     },
