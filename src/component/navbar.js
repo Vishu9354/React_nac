@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from './images/NAC_Navbar.png';
+import './css/navbar.css'
 import {Link} from "react-router-dom"
 export default function navbar() {
   return (
@@ -27,9 +28,9 @@ export default function navbar() {
           <Link className="nav-link" to="/Activites">
             Activites
           </Link>
-          <a className="nav-link" href="#">
+          <Link className="nav-link" to="/Gallery">
             Gallery
-          </a>
+          </Link>
           <Link className="nav-link" to="Trek">
             Treks
           </Link>

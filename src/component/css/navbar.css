@@ -1,0 +1,29 @@
+.navbar-nav{
+    margin-left: 450px;
+}
+@media screen and (max-width:1420px){
+    .navbar-nav{
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width:1320px){
+    .navbar-nav{
+        margin-left: 250px;
+    }
+}
+@media screen and (max-width:1220px){
+    .navbar-nav{
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width:1220px){
+    .navbar-nav{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:1120px){
+    .navbar-nav{
+        margin-left: 20px;
+    }
+}
