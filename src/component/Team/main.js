@@ -2,6 +2,7 @@ import React from 'react'
 import Carousel from '../Activites/carousel'
 import Team from './team.js'
 import nac from '../images/NAC.jpg'
+import sirja from '../images/sirja.jpg'
 export default function main() {
   const team =[
     {
@@ -45,8 +46,9 @@ export default function main() {
  
         {
           name:"Srija Shukla",
-          instagram:'#',
+          instagram:'https://www.instagram.com/srijashuklaa?igsh=eGxuNDJtamt2Z252',
           Linkdin:'#',
+          image:sirja,
         },
       ],
     },
