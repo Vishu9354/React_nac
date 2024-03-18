@@ -1,6 +1,8 @@
 import React from 'react'
 import '../css/home.css'
-import NAC from '../images/NAC.jpg'
+import discover from '../images/discover.jpg'
+import CHERISH from '../images/cherush.jpg'
+import PRESERVE from '../images/preseve.jpg'
 export default function carousel() {
   return (
 <section className="heroimage">
@@ -31,32 +33,32 @@ export default function carousel() {
       <div
         className="carousel-item active"
         style={{
-          backgroundImage: `url(${NAC})`
+          backgroundImage: `url(${discover})`
         }}
       >
         <div className="container">
-          <h2>welcome To</h2>
-          <p>NAC</p>
+          <h2>DISCOVER</h2>
+          <p>Discover the untamed beauty and thrilling adventures that nature has in store for those who seek it.</p>
         </div>
       </div>
       <div
         className="carousel-item"
-        style={{ backgroundImage: `url(${NAC})` }}
+        style={{ backgroundImage: `url(${CHERISH})`,backgroundSize:"contain",backgroundRepeat:"no-repeat"}}
       >
         <div className="container">
-          <h2>welcome To</h2>
-          <p>NAC</p>
+          <h2>CHERISH</h2>
+          <p>It is not the mountain we conquer, but ourselves.</p>
         </div>
       </div>
       <div
         className="carousel-item"
         style={{
-          backgroundImage: `url(${NAC})`
+          backgroundImage: `url(${PRESERVE})`
         }}
       >
         <div className="container">
-          <h2>welcome To</h2>
-          <p>NAC</p>
+          <h2>PRESERVE</h2>
+          <p>To walk in nature is to witness a thousand miracles.</p>
         </div>
       </div>
     </div>
