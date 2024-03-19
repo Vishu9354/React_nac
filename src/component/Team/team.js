@@ -16,12 +16,15 @@ export default function team(props) {
        <div className="card" style={{ width: "18rem" }}>
   <img src={member.image} className="card-img-top" alt="..." />
   <div className="card-body">
+    <div className='text'>
     <p className="card-text">
-    {member.name}
+    <h3>{member.name}</h3>
     </p>
-    <p>
-      
+    <p className='icon'>
+    <a href={member.instagram}><i class="fa-brands fa-instagram"></i></a>
+    <a href={member.Linkdin}><i class="fa-brands fa-linkedin"></i></a>
     </p>
+    </div>
   </div>
 </div>
               </div>

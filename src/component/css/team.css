@@ -5,7 +5,7 @@
 }
 .card{
     margin: 45px;
-    height: 300px;
+    height: 470px;
 }
 .member{
     display: flex;
@@ -13,4 +13,22 @@
 .title{
     display: flex;
     justify-content: center;
+}
+
+.card-body .icon{
+    font-size: 50px;
+    display: flex;
+    justify-content:space-around;
+}
+.card-body a{
+    color: black;
+}
+.card-body {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:1150px){
+    .member{
+        display: block;
+    }
 }

@@ -2,7 +2,15 @@ import React from 'react'
 import Carousel from '../Activites/carousel'
 import Team from './team.js'
 import nac from '../images/NAC.jpg'
+import aakash from '../images/aakash.jpg'
 import sirja from '../images/sirja.jpg'
+import yashP from '../images/yashP.jpg'
+import Khushboo from '../images/khushboo.jpg'
+import cr from '../images/cr.jpg'
+import mata from '../images/mata.jpg'
+import dev from '../images/dev.jpg'
+import parth from '../images/parth.jpg'
+import yash from '../images/ysah.jpg'
 export default function main() {
   const team =[
     {
@@ -23,23 +31,38 @@ export default function main() {
           name:"AKASH VERMA",
           instagram:'#',
           Linkdin:'#',
-          image:nac,
+          image:aakash,
 
         },
       ],
     },
     {
-      title:"Head of Social Media and Coverage",
+      title:"Head of Event Management",
       teamdetail:[
         {
-          name:"Yash Bhajbhuje",
+          name:"Yash Pandey",
           instagram:'#',
           Linkdin:'#',
-          image:nac,
+          image:yashP,
+
+        },
+        {
+          name:"Khushboo",
+          instagram:'#',
+          Linkdin:'#',
+          image:Khushboo,
+
+        },
+        {
+          name:"Abhay Krishan",
+          instagram:'#',
+          Linkdin:'#',
+          image:cr,
 
         },
       ],
     },
+
     {
       title:"Head of Designing and Content",
       teamdetail:[
@@ -53,32 +76,7 @@ export default function main() {
       ],
     },
 
-    {
-      title:"Head of Event Management",
-      teamdetail:[
-        {
-          name:"Yash Pandey",
-          instagram:'#',
-          Linkdin:'#',
-          image:nac,
-
-        },
-        {
-          name:"Khushboo",
-          instagram:'#',
-          Linkdin:'#',
-          image:nac,
-
-        },
-        {
-          name:"Abhay Krishan Raghav",
-          instagram:'#',
-          Linkdin:'#',
-          image:nac,
-
-        },
-      ],
-    },
+   
     {
       title:"Head of Inventory and Logistics",
       teamdetail:[
@@ -86,14 +84,14 @@ export default function main() {
           name:"Sakshi Srivastava",
           instagram:'#',
           Linkdin:'#',
-          image:nac,
+          image:mata,
 
         },
         {
           name:"Dev Banitia",
           instagram:'#',
           Linkdin:'#',
-          image:nac,
+          image:dev,
 
         },
       ],
@@ -102,10 +100,10 @@ export default function main() {
       title:"Head of Nature Events",
       teamdetail:[
         {
-          name:"Abhay Krishan Raghav",
+          name:"Abhay Krishan",
           instagram:'#',
           Linkdin:'#',
-          image:nac,
+          image:cr,
 
         },
       ],
@@ -117,7 +115,19 @@ export default function main() {
           name:"Parth Manjare",
           instagram:'#',
           Linkdin:'#',
-          image:nac,
+          image:parth,
+
+        },
+      ],
+    },
+    {
+      title:"Head of Social Media",
+      teamdetail:[
+        {
+          name:"Yash Bhajbhuje",
+          instagram:'#',
+          Linkdin:'#',
+          image:yash,
 
         },
       ],
