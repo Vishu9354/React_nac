@@ -2,6 +2,7 @@
 .carousel-item{
     min-height: 90vh;
     background-size: cover;
+    /* aspect-ratio:3/2; */
 }
 .carousel-item:before{
     content: '';
