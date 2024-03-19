@@ -30,7 +30,7 @@ export default function treak() {
             name:"Bir Billing",
             Days:"2",
             size:"60",
-            difficulty:"Moderate-Difficult",
+            difficulty:"Difficult",
             image: nac
 
         },
@@ -39,7 +39,7 @@ export default function treak() {
             name:"Kedarnath Trek",
             Days:"4",
             size:"17",
-            difficulty:"Moderate-Difficult",
+            difficulty:"Difficult",
             image: nac
 
         },
