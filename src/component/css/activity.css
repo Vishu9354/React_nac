@@ -92,3 +92,24 @@ main{
     text-align: center;
     width: 100%;
   }
+
+  .card{
+    height:50px;
+    width: 450px;
+   
+  }
+  .card .title{
+    height:500px;
+    width: 400px;
+    background-size: cover;
+    aspect-ratio:2/5;
+  }
+  .card .desc{
+    visibility: hidden;
+    opacity: 0;
+  }
+  .card:hover .desc{
+    bottom: 450px;
+    visibility: visible;
+    opacity: 1;
+  }

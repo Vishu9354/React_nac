@@ -19,6 +19,11 @@ export default function activitesdata(props) {
   </div>
 </div>
 </div>
+
+{/* <div className='card' >
+<div className='title' style={{backgroundImage: `url(${props.data.image})`}}><h3>{props.data.name}</h3></div>
+<div className='desc'>{props.data.des}</div>
+</div> */}
 </>
   )
 }
