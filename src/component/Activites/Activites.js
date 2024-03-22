@@ -3,6 +3,7 @@
     import Aboutactivites from './AboutActivites.js'
     import '../css/activity.css'
     import nac from '../images/NAC.jpg'
+    import bungee from '../images/bungee.JPG'
     export default function Activites() {
         const activites=[
         {
@@ -38,7 +39,7 @@
         {
             name:"BUNGEE JUMPING",
             des:"Dive into adrenaline-pumping bungee jumping! Leap off platforms securely attached to an elastic cord, experiencing free-fall followed by a thrilling rebound. With strict safety measures, this extreme sport offers unforgettable experiences for thrill-seekers worldwide. Join us for an adventure that defies gravity and leaves you breathless!",
-            image:nac,
+            image:bungee,
         },
         ]
 

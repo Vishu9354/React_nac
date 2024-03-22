@@ -1,5 +1,6 @@
 import React from 'react'
 import nac from '../images/NAC.jpg'
+import kheermala from '../images/kheermala3.JPG'
 import '../css/home.css'
 import '../js/recentpage.js'
 export default function RecentEventItem(props) {
@@ -50,7 +51,7 @@ export default function RecentEventItem(props) {
         <div
           className="item"
           style={{
-            backgroundImage: `url(${nac})`
+            backgroundImage: `url(${kheermala})`
           }}
         >
           <div className="content">
