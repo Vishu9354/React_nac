@@ -1,4 +1,42 @@
-.footermain{
-    height: 400px;
+.footer{
+    height: 480px;
     background-color: rgba(0, 0, 0, 0.655);
+    margin-top: 150px;
+    padding: 25px;
+}
+.footermain{
+    display: flex;
+    justify-content: space-around;
+}
+.footernav{
+    margin-top:25px;
+}
+.usefullink{
+margin-top: 50px;
+}
+.footerlocation{
+    margin-top: 25px;
+}
+.usefullink a{
+    color: white;
+    text-decoration: none;
+}
+.usefullink i{
+    font-size: 35px;
+}
+.footernav a{
+    color:white;
+}
+.footerlocation p{
+    color: white;
+}
+.dev{
+    margin-top: 25px;
+    margin-left: 190px;
+}
+.dev img{
+    /* height: 25%; */
+    width: 35%;
+    margin-right: 50px;
+    float: right;
 }

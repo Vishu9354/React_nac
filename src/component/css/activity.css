@@ -10,6 +10,7 @@ main{
     width: 75vw;
     display: flex;
 }
+
 .flipcard{
     background-color: transparent;
     width: 300px;
@@ -113,3 +114,7 @@ main{
     visibility: visible;
     opacity: 1;
   }
+  
+  @media screen and (max-width:1300px){
+    
+}
