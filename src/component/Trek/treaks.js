@@ -1,7 +1,8 @@
 import React from 'react'
-import Carousel from '../Activites/carousel'
+import Carousel from './carousel.js'
 import TrekData from './TrekData'
 import nac from '../images/NAC.jpg'
+import "../css/font.css";
 export default function treak() {
     const Trek=[
         {

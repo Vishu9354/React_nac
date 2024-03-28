@@ -1,10 +1,10 @@
 import React from 'react'
 import nac from '../images/NAC.jpg'
-
+import "../css/font.css";
 export default function upcomingevent() {
   return (
     <section className="upcomingEvent">
-  <div className="ttl">Upcoming Event</div>
+  <div className="ttl"><h2>Upcoming Event</h2></div>
   <div className="upcoming">
     <div
       className="photo"

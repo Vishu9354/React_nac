@@ -3,6 +3,7 @@ import '../css/home.css'
 import discover from '../images/discover.jpg'
 import CHERISH from '../images/cherush.jpg'
 import PRESERVE from '../images/preseve.jpg'
+import "../css/font.css";
 export default function carousel() {
   return (
 <section className="heroimage">

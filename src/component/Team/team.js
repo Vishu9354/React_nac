@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/team.css'
+import "../css/font.css";
 
 
 export default function team(props) {

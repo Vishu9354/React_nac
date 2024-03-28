@@ -1,5 +1,6 @@
 import React from 'react'
 import "../css/trek.css"
+import "../css/font.css";
 export default function Trekf(props) {
   return (
     <>

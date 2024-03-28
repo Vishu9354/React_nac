@@ -1,5 +1,7 @@
 import React from 'react'
-import Carousel from '../Activites/carousel'
+import Carousel from './carousel.js'
+import "../css/font.css";
+
 import Team from './team.js'
 import nac from '../images/NAC.jpg'
 import aakash from '../images/aakash.jpg'

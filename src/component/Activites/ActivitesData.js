@@ -6,7 +6,7 @@ export default function activitesdata(props) {
       <div className='col-4'>
   <div className="flipcard">
   <div className="inner">
-    <div className="front" style={{backgroundImage: `url(${props.data.image})`}}>{props.data.name}</div>
+    <div className="front" style={{backgroundImage: `url(${props.data.image})`}}><h2>{props.data.name}</h2></div>
     <div className="back" >
     <div class="bg-image"style={{backgroundImage: `url(${props.data.image})`,fontSize:"15px",height:"100%",width:"100%"}}></div>
 

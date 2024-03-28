@@ -8,7 +8,7 @@ export default function home() {
     <>
     <Carousel/>
    <RecentEvent/>
-   <UpcomingEvent/>
+   {/* <UpcomingEvent/> */}
     </>
   )
 }

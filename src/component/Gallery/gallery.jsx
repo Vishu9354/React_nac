@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../css/font.css";
 export default function gallery(props) {
   return (
     <>

@@ -1,5 +1,7 @@
 import React from 'react'
 import nac from '../images/NAC.jpg'
+import "../css/font.css";
+
 export default function aboutpage() {
   return (
   <>

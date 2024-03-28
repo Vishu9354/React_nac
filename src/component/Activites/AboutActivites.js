@@ -1,6 +1,8 @@
 import React from 'react'
 import ActivitesData from './ActivitesData.js'
 import '../css/activity.css'
+import "../css/font.css";
+
 export default function AboutActivites(props) {
   return (
     <>

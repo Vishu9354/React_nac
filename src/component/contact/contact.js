@@ -1,12 +1,13 @@
 import React from 'react'
 import '../css/contact.css'
+import "../css/font.css";
+
 export default function contact() {
   return (
     <div className='main' style={{display:"flex",justifyContent:"space-around"}}>
       <div className='mail icon'>
       <i class="fa-solid fa-envelope"></i>
       <p><a href="natureclub@iitjammu.ac.in">Mail us</a></p>
-      {/* <p> natureclub@iitjammu.ac.in</p> */}
       </div>
       <div className='location icon'>
       <i class="fa-brands fa-linkedin"></i>

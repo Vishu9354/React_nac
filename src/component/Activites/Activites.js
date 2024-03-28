@@ -4,6 +4,8 @@
     import '../css/activity.css'
     import nac from '../images/NAC.jpg'
     import bungee from '../images/bungee.JPG'
+    import "../css/font.css";
+
     export default function Activites() {
         const activites=[
         {
