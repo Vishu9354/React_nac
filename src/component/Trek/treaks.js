@@ -6,14 +6,14 @@ import "../css/font.css";
 export default function treak() {
     const Trek=[
         {
-            name:"NATHATOP TREK",
+            name:"Nathatop",
             Days:"2",
             size:"70",
             difficulty:"Easy-Moderate",
             image: nac
         },
         {
-            name:"Kheermala Trek",
+            name:"Kheermala",
             Days:"1",
             size:"20",
             difficulty:"Easy-Moderate",
@@ -21,14 +21,14 @@ export default function treak() {
 
         },     
         {
-            name:"Devi Pindi Trek",
+            name:"Devi Pindi",
             Days:"1",
             size:"40",
             difficulty:"Moderate",
             image: nac
         },        
         {
-            name:"Bir Billing",
+            name:"Hanumangarh",
             Days:"2",
             size:"60",
             difficulty:"Difficult",
@@ -37,7 +37,7 @@ export default function treak() {
         },
 
         {
-            name:"Kedarnath Trek",
+            name:"Kedarnath",
             Days:"4",
             size:"17",
             difficulty:"Difficult",
