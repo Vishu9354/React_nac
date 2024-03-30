@@ -2,6 +2,24 @@ import React from 'react'
 import Gallery from './gallery.jsx'
 import Carousel from './carousel.js'
 import nac from '../images/NAC.jpg'
+import ddevipindi2 from '../images/ddevipindi2.jpg'
+import devi1 from '../images/devi1.jpg'
+import devipindi1 from '../images/devipindi1.jpeg'
+import devipindi2 from '../images/devipindi2.jpeg'
+import devipindi3 from '../images/devipindi3.jpeg'
+import discover from '../images/discover.jpg'
+import diwas from '../images/diwas.JPG'
+import kheermala from '../images/kheermala.jpg'
+import kheermala2 from '../images/kheermala2.jpg'
+import kheermala3 from '../images/kheermala3.JPG'
+import kheermala4 from '../images/kheermala4.JPG'
+import kheermala5 from '../images/kheermala5.JPG'
+import kheermala6 from '../images/kheermala6.JPG'
+import kheermala7 from '../images/kheermala7.JPG'
+import nathatop1 from '../images/nathatop1.JPG'
+import nathatop2 from '../images/nathatop2.JPG'
+import nathatop4 from '../images/nathatop4.JPG'
+import nathatop24 from '../images/nathatop24.JPG'
 import bir1 from '../images/bir1.JPG'
 import bir2 from '../images/bir2.JPG'
 import bir3 from '../images/bir3.JPG'
@@ -57,58 +75,58 @@ export default function page() {
   image:bungee,
 },
 {
-  image:nac,
+  image:ddevipindi2,
 },
 {
-  image:nac,
+  image:devi1,
 },
 {
-  image:nac,
+  image:devipindi1,
 },
 {
-  image:nac,
+  image:devipindi2,
 },
 {
-  image:nac,
+  image:devipindi3,
 },
 {
-  image:nac,
+  image:discover,
 },
 {
-  image:nac,
+  image:diwas,
 },
 {
-  image:nac,
+  image:kheermala,
 },
 {
-  image:nac,
+  image:kheermala2,
 },
 {
-  image:nac,
+  image:kheermala3,
 },
 {
-  image:nac,
+  image:kheermala4,
 },
 {
-  image:nac,
+  image:kheermala5,
 },
 {
-  image:nac,
+  image:kheermala6,
 },
 {
-  image:nac,
+  image:kheermala7,
 },
 {
-  image:nac,
+  image:nathatop1,
 },
 {
-  image:nac,
+  image:nathatop2,
 },
 {
-  image:nac,
+  image:nathatop24,
 },
 {
-  image:nac,
+  image:nathatop4,
 },
 {
   image:nac,
