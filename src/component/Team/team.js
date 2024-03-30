@@ -8,13 +8,13 @@ export default function team(props) {
     <>
 
 {props.team.map((position, index) => (
-        <div key={index} className='main'> 
-        <div className='detail'>
-          <div className='title'><h2> {position.title}</h2></div>
-          <div className='member'>
+        <div key={index} className='teammain'> 
+        <div className='teamdetail'>
+          <div className='teamtitle'><h2> {position.title}</h2></div>
+          <div className='teammember'>
             {position.teamdetail.map((member, memberIndex) => (
               <div key={memberIndex}>
-       <div className="card" style={{ width: "18rem" }}>
+       <div className="teamcard" style={{ width: "18rem" }}>
   <img src={member.image} className="card-img-top" alt="..." />
   <div className="card-body">
     <div className='text'>

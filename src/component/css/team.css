@@ -1,16 +1,16 @@
-.main{
+.teammain{
     display: flex;
     justify-content: center ;
     align-items: center;
 }
-.card{
+.teamcard{
     margin: 45px;
     height: 470px;
 }
-.member{
+.teammember{
     display: flex;
 }
-.title{
+.teamtitle{
     display: flex;
     justify-content: center;
     margin-top: 25px;
