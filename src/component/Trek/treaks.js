@@ -5,7 +5,7 @@ import nac from '../images/NAC.jpg'
 import devi from '../images/devipindi2.jpeg'
 import kheermala from '../images/kheermala4.JPG'
 import hanumangarh from '../images/bir5.JPG'
-import nath from '../images/nathatop2.JPG'
+import nath from '../images/nathatop4.JPG'
 import "../css/font.css";
 export default function treak() {
     const Trek=[

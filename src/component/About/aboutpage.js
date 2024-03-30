@@ -5,8 +5,8 @@ import "../css/font.css";
 export default function aboutpage() {
   return (
   <>
-  <div className='main'>
-  <div className='contianer'>
+  <div className='aboutmain'>
+  <div className='aboutcontianer'>
     <div className='image' style={{backgroundImage: `url(${nac})`, height:"600px",width:"70vw",backgroundSize:"cover",marign:"100px"}}>
     </div>
     <div className='about' style={{fontSize:"25px"}}>

@@ -1,9 +1,10 @@
 import React from 'react'
 import "../css/font.css";
+import '../css/gallery.css'
 export default function gallery(props) {
   return (
     <>
-    <div className='main'>
+    <div className='gallerymain'>
     <div className='row'>
     {props.gallery.map((position, index) => (
         <div key={index} className='col-3'>

@@ -1,3 +1,9 @@
-.contianer{
+.aboutmain{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.aboutcontianer{
     width: 70vw;
+    
    }

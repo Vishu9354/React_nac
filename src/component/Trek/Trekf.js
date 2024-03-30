@@ -8,7 +8,7 @@ export default function Trekf(props) {
         <div className="card1" style={{width: '18rem'}}>
         <img src={props.data.image} className="card-img-top" alt="..." />
         <div className="cardbody1">
-          <div className="title"><h4>{props.data.name}</h4></div>
+          <div className="title"><h4 style={{marginLeft:"20px",marginTop:"10px"}}>{props.data.name}</h4></div>
           <div className="detail">
             <div className="day">
               <p>{props.data.Days}</p>
