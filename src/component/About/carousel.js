@@ -1,5 +1,5 @@
 import React from 'react'
-import nac from '../images/NAC.jpg'
+import nac from '../images/bir8.JPG'
 import "../css/font.css";
 export default function carousel() {
   return (
@@ -11,7 +11,7 @@ export default function carousel() {
   <div className="carousel-indicators">
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`}}>
+    <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`, backgroundSize:"contain"}}>
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
                <div className="abt">
                <h2>About</h2> 

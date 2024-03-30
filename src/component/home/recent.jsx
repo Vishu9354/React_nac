@@ -1,6 +1,11 @@
 import React from 'react'
-import nac from '../images/NAC.jpg'
+// import nac from '../images/NAC.jpg'
 import kheermala from '../images/kheermala3.JPG'
+import hdfc from '../images/plant3.JPG'
+import devi from '../images/devipindi2.jpeg'
+import udy from '../images/plant8.JPG'
+import jan from '../images/plant6.JPG'
+import nath from '../images/nathatop24.JPG'
 import '../css/home.css'
 import '../js/recentpage.js'
 import "../css/font.css";
@@ -27,7 +32,7 @@ export default function RecentEventItem(props) {
         <div
           className="item"
           style={{
-            backgroundImage: `url(${nac})`
+            backgroundImage: `url(${nath})`
           }}
         >
           <div className="content">
@@ -40,13 +45,13 @@ export default function RecentEventItem(props) {
         <div
           className="item"
           style={{
-            backgroundImage: `url(${nac})`
+            backgroundImage: `url(${udy})`
           }}
         >
           <div className="content">
             <div className="name"><h2>UDYAMITSAV PLANTATION</h2></div>
             <div className="des">
-            <p>As part of CSR initiatives by the Udyamitsav'24 team, a plantation drive was carried out by guests and speakers on the day of the festival with the collaboration of the Nature & Adventure Club 🌱></p>
+            <p>As part of CSR initiatives by the Udyamitsav'24 team, a plantation drive was carried out by guests and speakers on the day of the festival with the collaboration of the Nature & Adventure Club 🌱</p>
             </div>
           </div>
         </div>
@@ -67,7 +72,7 @@ export default function RecentEventItem(props) {
         <div
           className="item"
           style={{
-            backgroundImage: `url(${nac})`
+            backgroundImage: `url(${jan})`
           }}
         >
           <div className="content">
@@ -81,15 +86,7 @@ export default function RecentEventItem(props) {
         <div
           className="item"
           style={{
-            backgroundImage: `url(${nac})`
-          }}
-        >
-
-        </div>
-        <div
-          className="item"
-          style={{
-            backgroundImage: `url(${nac})`
+            backgroundImage: `url(${hdfc})`
           }}
         >
           <div className="content">
@@ -104,11 +101,11 @@ The drive holds the dual purpose of enhancing the aesthetic appeal of the campus
         <div
           className="item"
           style={{
-            backgroundImage: `url(${nac})`
+            backgroundImage: `url(${devi})`
           }}
         >
           <div className="content">
-            <div className="name"><h2>DEVI PINDI</h2></div>
+            <div className="name" style={{color:""}}><h2>DEVI PINDI</h2></div>
             <div className="des">
            <p> The Nature and Adventure Club organized an all-girls trek to Devi Pindi on October 24, 2023, covering 6.5 kilometers of thrilling terrain. Beyond a physical challenge, the trek fostered a deep connection with nature and panoramic views. The event celebrated female camaraderie, emphasizing the power of women in exploring, appreciating, and preserving the beauty of the outdoors. Special thanks were extended to key contributors for their guidance</p>
 

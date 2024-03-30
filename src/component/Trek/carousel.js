@@ -1,5 +1,5 @@
 import React from 'react'
-import nac from '../images/NAC.jpg'
+import nac from '../images/bir2.JPG'
 import "../css/font.css";
 
 export default function carousel() {
