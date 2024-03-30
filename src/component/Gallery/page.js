@@ -1,7 +1,18 @@
 import React from 'react'
 import Gallery from './gallery.jsx'
 import Carousel from './carousel.js'
+import paragliding from '../images/paragliding.JPG'
+import plant1 from '../images/plant1.JPG'
+import plant2 from '../images/plant2.JPG'
+import plant3 from '../images/plant3.JPG'
+import plant4 from '../images/plant4.JPG'
+import plant5 from '../images/plant5.JPG'
+import plant6 from '../images/plant6.JPG'
+import plant7 from '../images/plant7.JPG'
+import plant8 from '../images/plant8.JPG'
+import preserve from '../images/preseve.jpg'
 import nac from '../images/NAC.jpg'
+// import nac from '../images/NAC.jpg'
 import ddevipindi2 from '../images/ddevipindi2.jpg'
 import devi1 from '../images/devi1.jpg'
 import devipindi1 from '../images/devipindi1.jpeg'
@@ -129,29 +140,69 @@ export default function page() {
   image:nathatop4,
 },
 {
-  image:nac,
+  image:paragliding,
 },
 {
-  image:nac,
+  image:plant1,
 },
 {
-  image:nac,
+  image:plant2,
 },
 {
-  image:nac,
+  image:plant3,
 },
 {
-  image:nac,
+  image:plant4,
 },
 {
-  image:nac,
+  image:plant5,
 },
 {
-  image:nac,
+  image:plant6,
 },
 {
-  image:nac,
+  image:plant7,
 },
+
+{
+  image:plant8,
+},
+
+{
+  image:preserve,
+},
+
+// {
+//   image:nac,
+// },
+
+// {
+//   image:nac,
+// },
+
+// {
+//   image:nac,
+// },
+
+// {
+//   image:nac,
+// },
+
+// {
+//   image:nac,
+// },
+
+// {
+//   image:nac,
+// },
+
+// {
+//   image:nac,
+// },
+
+// {
+//   image:nac,
+// },
 
   ]
   return (
