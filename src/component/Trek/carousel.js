@@ -12,9 +12,9 @@ export default function carousel() {
   <div className="carousel-indicators">
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`}}>
+    <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`,backgroundSize:"contain"}}>
                <div className="abt">
-               <h2>Treks</h2> 
+               <h2 style={{display:"flex",justifyContent:"center",alignItems:"center"}}>Treks</h2> 
                 <h4>dfafgs</h4> 
                </div>
                 

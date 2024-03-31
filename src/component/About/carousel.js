@@ -14,7 +14,7 @@ export default function carousel() {
     <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`, backgroundSize:"contain"}}>
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
                <div className="abt">
-               <h2>About</h2> 
+               <h2 style={{display:"flex",justifyContent:"center"}}>About</h2> 
                 <h4>We Are Wanderers, We Are NAC</h4> 
                </div>
                 

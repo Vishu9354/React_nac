@@ -44,7 +44,8 @@ export default function footer(){
         </div>
         <hr></hr>
         <div className="dev">
-        NAC IIT JAMMU Website by: <b>Vishal Kumar</b>
+          <p>
+        NAC IIT JAMMU Website by: <a><b>Vishal Kumar</b></a></p>
         <img src={logo}></img>
         </div>
         

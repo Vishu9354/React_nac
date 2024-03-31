@@ -31,12 +31,12 @@ margin-top: 50px;
     color: white;
 }
 .dev{
-    margin-top: 25px;
-    margin-left: 190px;
+   display: flex;
+   justify-content: space-around;
 }
 .dev img{
     /* height: 25%; */
     width: 35%;
     margin-right: 50px;
-    float: right;
+
 }

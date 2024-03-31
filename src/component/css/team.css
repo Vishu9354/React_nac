@@ -29,7 +29,7 @@
     justify-content: center;
 }
 @media screen and (max-width:1150px){
-    .member{
+    .teammember{
         display: block;
     }
 }

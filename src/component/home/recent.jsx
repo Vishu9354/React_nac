@@ -113,20 +113,20 @@ The drive holds the dual purpose of enhancing the aesthetic appeal of the campus
           </div>
         </div>
       </div>
-      <div className="buttons">
-        <button id="prevs" className='prevs' onClick={handlePrevClick}>
+      <div className="buttons" style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+        <button id="prevs" className='prevs' onClick={handlePrevClick} style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
           <span
             className="carousel-control-prev-icon"
             id="prev"
-            aria-hidden="true"
+            aria-hidden="true" 
           />
           <span className="visually-hidden">Previous</span>
         </button>
-        <button id="nexts" className='nexts' onClick={handleNextClick}>
+        <button id="nexts" className='nexts' onClick={handleNextClick} style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
           <span
             className="carousel-control-next-icon"
             id="prev"
-            aria-hidden="true"
+            aria-hidden="true" style={{display:"flex",justifyContent:"center",alignItems:"center"}}
           />
           <span className="visually-hidden">Next</span>
         </button>
