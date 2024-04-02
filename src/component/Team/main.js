@@ -9,7 +9,7 @@ import sirja from '../images/sirja.jpg'
 import yashP from '../images/yashP.jpg'
 import Khushboo from '../images/khushboo.jpg'
 import cr from '../images/cr.jpg'
-import mata from '../images/mata.jpg'
+import sakshi from '../images/sakshi.jpg'
 import dev from '../images/dev.jpg'
 import parth from '../images/parth.jpg'
 import yash from '../images/ysah.jpg'
@@ -86,7 +86,7 @@ export default function main() {
           name:"Sakshi Srivastava",
           instagram:'#',
           Linkdin:'#',
-          image:mata,
+          image:sakshi,
 
         },
         {
