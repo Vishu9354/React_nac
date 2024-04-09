@@ -1,9 +1,11 @@
 .navbar-nav{
     margin-left: 450px;
+    height: 10vh;
 }
 @media screen and (max-width:1420px){
     .navbar-nav{
         margin-left: 350px;
+        height: 5vh;
     }
 }
 

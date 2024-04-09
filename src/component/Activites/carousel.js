@@ -13,7 +13,7 @@ export default function carousel() {
   <div className="carousel-indicators">
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`,backgroundSize:"contain"}}>
+    <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`,height:"",width:"100vw",backgroundSize:"cover"}}>
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
                <div className="abt">
                <h2 style={{display:"flex",justifyContent:"center"}}>Activites</h2> 
