@@ -9,14 +9,15 @@ export default function contact() {
       <i class="fa-solid fa-envelope"></i>
       <p><a href="natureclub@iitjammu.ac.in">Mail us</a></p>
       </div>
-      <div className='location icon'>
-      <i class="fa-brands fa-linkedin"></i>
-      <p><a href="https://in.linkedin.com/in/nac-iit-jammu-551b3b27a">Linked-in</a></p>
-      </div>
       <div className='insta icon'>
       <i class="fa-brands fa-instagram"></i>
       <p><a href="https://www.instagram.com/nac_iitjmu/">Instagram</a></p>
       </div>
+      <div className='location icon'>
+      <i class="fa-brands fa-linkedin"></i>
+      <p><a href="https://in.linkedin.com/in/nac-iit-jammu-551b3b27a">Linked-in</a></p>
+      </div>
+     
     </div>
   )
 }
