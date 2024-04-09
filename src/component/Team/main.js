@@ -114,7 +114,7 @@ export default function main() {
       title:"Head of Nature Events",
       teamdetail:[
         {
-          name:"Abhay Krishan",
+          name:"Abhay Raghav",
           instagram:'#',
           Linkdin:'#',
           image:cr,
