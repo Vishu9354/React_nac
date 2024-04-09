@@ -56,7 +56,7 @@ export default function main() {
 
         },
         {
-          name:"Abhay Krishan",
+          name:"Abhay Raghav",
           instagram:'#',
           Linkdin:'#',
           image:cr,

@@ -17,8 +17,7 @@ export default function carousel() {
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
                <div className="abt">
                <h2 style={{display:"flex",justifyContent:"center"}}>Contact us</h2> 
-                <h4>dfafgs</h4> 
-               </div>
+                </div>
                 
       <div className="carousel-caption d-none d-md-block">
         <h5>Home/Contact Us</h5>
