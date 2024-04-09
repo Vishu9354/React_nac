@@ -25,15 +25,17 @@ export default function navbar() {
           <Link className="nav-link active" aria-current="page" to="/About">
             About
           </Link>
-          <Link className="nav-link" to="/Activites">
-            Activites
+          <Link className="nav-link" to="Trek">
+            Treks
           </Link>
           <Link className="nav-link" to="/Gallery">
             Gallery
           </Link>
-          <Link className="nav-link" to="Trek">
-            Treks
+          <Link className="nav-link" to="/Activites">
+            Activites
           </Link>
+
+
           <Link className="nav-link" to="Main">
             Team
           </Link>
