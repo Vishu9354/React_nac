@@ -7,7 +7,7 @@ export default function navbar() {
     <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{position:"fixed",zIndex:"1111111", width:"100%",}}>
     <div className="container-fluid">
       <Link className="navbar-brand" to="/">
-      <img style={{width: "500px",heigth:"100px",marginLeft:"50px"}} src={logo} alt="anhad" />
+      <img style={{width: "25vw",height:"15vh",marginLeft:"50px"}} src={logo} alt="anhad" />
       </Link>
       <button
         className="navbar-toggler"
