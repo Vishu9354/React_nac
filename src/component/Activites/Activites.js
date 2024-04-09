@@ -26,15 +26,16 @@
         //     // image:nac,
         // },
         {
-            name:"PARAGLIDING",
-            des:"Embark on an exhilarating adventure with NAC! Paragliding offers a thrilling experience as you glide through the air with a wide canopy, taking in breathtaking views of forests, lakes, rivers, and majestic mountains. Unlike other extreme sports, paragliding is accessible and doesn't require specialized equipment or tracks. While it involves risks and fear, the experience is truly unforgettable and life-changing. Join us for this indelible journey into the skies!",
-            image:parag,
-        },
-        {
             name:"PLANTING",
             des:"Join hands with NAC at IIT Jammu to make a difference in the world! Planting trees is a simple yet effective way to combat the challenges of deforestation and pollution. By increasing the tree population, we can mitigate environmental issues and create a safer planet. Tree planting is not only cost-effective but also enhances the aesthetic appeal of our surroundings, allowing us to reconnect with nature. At NAC, we prioritize both adventure and environmental stewardship, offering opportunities to contribute to the beauty and welfare of nature through tree planting events. Together, let's make the Earth a more secure and sustainable place to call home.",
             image:planting,
         },
+        {
+            name:"PARAGLIDING",
+            des:"Embark on an exhilarating adventure with NAC! Paragliding offers a thrilling experience as you glide through the air with a wide canopy, taking in breathtaking views of forests, lakes, rivers, and majestic mountains. Unlike other extreme sports, paragliding is accessible and doesn't require specialized equipment or tracks. While it involves risks and fear, the experience is truly unforgettable and life-changing. Join us for this indelible journey into the skies!",
+            image:parag,
+        },
+       
         // {
         //     name:"ROCK CLIMBING",
         //     des:"Embark on an exhilarating journey with the Nature and Adventure Club at IIT Jammu! Rock climbing, whether on natural formations or artificial walls, challenges both your physical strength and mental fortitude. It's a sport that demands endurance, agility, and balance, testing your limits while ensuring safety through bolts and anchors. At our club, we offer various adventure activities, including regular trips and access to a wall climbing facility within the college premises. Join us to elevate your college experience and reach new heights of adventure!",

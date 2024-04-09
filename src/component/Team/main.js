@@ -27,7 +27,7 @@ export default function main() {
       ],
     },
     {
-      title:"Club Co-ordinator",
+      title:"Co-ordinator",
       teamdetail:[
         {
           name:"AKASH VERMA",
@@ -99,6 +99,18 @@ export default function main() {
       ],
     },
     {
+      title:"Head of Media Coverage",
+      teamdetail:[
+        {
+          name:"Yash Bhajbhuje",
+          instagram:'#',
+          Linkdin:'#',
+          image:yash,
+
+        },
+      ],
+    },
+    {
       title:"Head of Nature Events",
       teamdetail:[
         {
@@ -122,18 +134,7 @@ export default function main() {
         },
       ],
     },
-    {
-      title:"Head of Social Media",
-      teamdetail:[
-        {
-          name:"Yash Bhajbhuje",
-          instagram:'#',
-          Linkdin:'#',
-          image:yash,
-
-        },
-      ],
-    },
+    
   ]
   return (
     
