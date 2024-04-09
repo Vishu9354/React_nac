@@ -34,8 +34,6 @@ export default function navbar() {
           <Link className="nav-link" to="/Activites">
             Activites
           </Link>
-
-
           <Link className="nav-link" to="Main">
             Team
           </Link>

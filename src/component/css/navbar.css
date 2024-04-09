@@ -1,31 +1,7 @@
 .navbar-nav{
-    margin-left: 450px;
-    height: 10vh;
+    margin-left:55%;
+    height: 10vh;       
 }
-@media screen and (max-width:1420px){
-    .navbar-nav{
-        margin-left: 350px;
-        height: 5vh;
-    }
-}
-
-@media screen and (max-width:1320px){
-    .navbar-nav{
-        margin-left: 250px;
-    }
-}
-@media screen and (max-width:1220px){
-    .navbar-nav{
-        margin-left: 150px;
-    }
-}
-@media screen and (max-width:1220px){
-    .navbar-nav{
-        margin-left: 50px;
-    }
-}
-@media screen and (max-width:1120px){
-    .navbar-nav{
-        margin-left: 20px;
-    }
+.navbar-nav a{
+    margin-top:25px;
 }
