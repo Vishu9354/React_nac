@@ -15,7 +15,7 @@ export default function carousel() {
     <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`,backgroundSize:"contain"}}>
                <div className="abt">
                <h2 style={{display:"flex",justifyContent:"center",alignItems:"center"}}>Treks</h2> 
-                <h4>dfafgs</h4> 
+                <h4>There is always an adventure waiting in the woods</h4> 
                </div>
                 
       <div className="carousel-caption d-none d-md-block">
