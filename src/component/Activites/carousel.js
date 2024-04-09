@@ -17,7 +17,7 @@ export default function carousel() {
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
                <div className="abt">
                <h2 style={{display:"flex",justifyContent:"center"}}>Activites</h2> 
-                <h4>dfafgs</h4> 
+                <h4>Venture into the unknown, for it is there that true adventure awaits</h4> 
                </div>
                 
       <div className="carousel-caption d-none d-md-block">
