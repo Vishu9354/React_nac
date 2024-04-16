@@ -26,7 +26,7 @@ export default function RecentEventItem(props) {
     {/* <div><h2>{props.data.name}</h2></div> */}
     <section className="recent">
   <div className="maincont">
-    <div className="title"><h2>Recent Events</h2></div>
+    <div className="title"><h1>Recent Events</h1></div>
     <div className="container">
       <div id="slide" className='slide'>
         <div

@@ -13,7 +13,7 @@ export default function carousel() {
   <div className="carousel-inner">
     <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`,height:"100%",width:"100%"}}>
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
-               <div className="abt">
+               <div className="abt" style={{backgroundColor:"rbga(0,0,0,0.5)"}}>
                <h2 style={{display:"flex",justifyContent:"center"}}>About</h2> 
                 <h4>We Are Wanderers, We Are NAC</h4> 
                </div>
