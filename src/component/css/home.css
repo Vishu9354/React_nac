@@ -282,7 +282,7 @@ margin: 0 0 10px;
     border-style: none;
 }
 .ingug img{
-    position: absolute;
+    /* position: absolute; */
     transform: translateY(-100vh);
     transition: 2s;
 }
