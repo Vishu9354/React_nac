@@ -21,7 +21,7 @@ export default function team(props) {
     <p className="card-text">
     <h3>{member.name}</h3>
     </p>
-    <p className='icon'>
+    <p className='teamicon'>
     <a href={member.instagram}><i class="fa-brands fa-instagram"></i></a>
     <a href={member.Linkdin}><i class="fa-brands fa-linkedin"></i></a>
     </p>

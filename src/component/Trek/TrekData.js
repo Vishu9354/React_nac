@@ -6,7 +6,7 @@ export default function TrekData(props) {
   return (
     <>
     <main>
-    <div className='row'>
+    <div className='trekrow'>
     { 
         props.treks.map((trek,i)=>(
             <Trekf data={trek} key={i}/>

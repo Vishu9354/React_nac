@@ -7,7 +7,7 @@ export default function contact() {
     <div className='main' style={{display:"flex",justifyContent:"space-around"}}>
       <div className='mail icon'>
       <i class="fa-solid fa-envelope"></i>
-      <p><a href="natureclub@iitjammu.ac.in">Mail us</a></p>
+      <p><a href="mailto:natureclub@iitjammu.ac.in">Mail us</a></p>
       </div>
       <div className='insta icon'>
       <i class="fa-brands fa-instagram"></i>

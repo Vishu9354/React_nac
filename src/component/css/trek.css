@@ -5,16 +5,10 @@ main{
 .main{
     margin-top: 25px;  
 }
-
-.row1{
-    width: 75vw;
-    display: flex; 
-    flex-direction: column; 
-    flex-wrap: wrap; 
-}
-.row1 .col{
-    flex: 0 0 50px; 
-    margin: 5px; 
+.trekrow{
+    display: grid;
+    grid-template-columns: 33.333% 33.33% 33.33%;
+    width: 80vw;
 }
 
 .cardbody1 .detail{
@@ -26,11 +20,26 @@ main{
     margin-top: 75px;
     box-shadow: 0 30px 50px #dbdbdb;
     transition: 0.5s ease-in;
-    height: 350px;
+    height: 300px;
+    margin-left: 8vw;
 }
 .card1 .detail{
     margin-left: 10px;
 }
  .card1:hover{
     transform: translateY(-20px);
+}
+@media screen and (max-width:1000px){
+    .trekrow{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 80vw;
+    }
+}
+@media screen and (max-width:600px){
+    .trekrow{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 80vw;
+    }
 }

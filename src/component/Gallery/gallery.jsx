@@ -5,10 +5,11 @@ export default function gallery(props) {
   return (
     <>
     <div className='gallerymain'>
-    <div className='row'>
+    <div className='galleryrow'>
     {props.gallery.map((position, index) => (
-        <div key={index} className='col-3'>
-          <div className="image" style={{backgroundImage: `url(${position.image})`,height:"250px",width:"250px",margin:"50px",backgroundSize:"cover",}}></div> 
+        <div key={index} className='colgrid'>
+          <div className="image" style={{height:"250px",width:"250px",marginLeft:'5vw',marginBottom:'5vh',marginTop:'5vh',backgroundSize:"contain"}}>
+            <img src={position.image} style={{height:'100%',width:'100%'}}/></div> 
         </div>
       ))}
       </div>

@@ -4,11 +4,11 @@ import "../css/font.css";
 export default function Trekf(props) {
   return (
     <>
-    <div className='col-4'>
+    <div>
         <div className="card1" style={{width: '18rem'}}>
         <img src={props.data.image} className="card-img-top" alt="..." />
         <div className="cardbody1">
-          <div className="title"><h3 style={{marginLeft:"28px",marginTop:"10px"}}>{props.data.name}</h3></div>
+          <div className="trektitle"><h3 style={{marginLeft:"27px",marginTop:"10px"}}>{props.data.name}</h3></div>
           <div className="detail">
             <div className="day">
               <p>{props.data.Days}</p>
