@@ -1,6 +1,8 @@
   h1,h2,h3,h4,h5,h6{
-      font-family: League Sparta;
+      font-family: "League Spartan", sans-serif;
+      /* font-style: italic; */
     }
   p{
-      font-family:  Indfiference;
+      font-family:"Glacial Indfiference",sans-serif;
     }
+    
