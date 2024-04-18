@@ -5,7 +5,7 @@ import nac from '../images/NAC.jpg'
 import devi from '../images/devipindi2.jpeg'
 import kheermala from '../images/kheermala4.JPG'
 import hanumangarh from '../images/bir5.JPG'
-import nath from '../images/nathatop4.JPG'
+import nath from '../images/nathatop5.jpg'
 import "../css/font.css";
 export default function treak() {
     const Trek=[
@@ -45,6 +45,14 @@ export default function treak() {
             Days:"4",
             size:"17",
             difficulty:"Difficult",
+            image: nac
+
+        },
+        {
+            name:"Triund",
+            Days:"2",
+            size:"35",
+            difficulty:"Moderate",
             image: nac
 
         },

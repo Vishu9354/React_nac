@@ -1,6 +1,6 @@
 .footer{
-    height: 480px;
-    background-color: rgba(0, 0, 0, 0.655);
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.6);
     margin-top: 150px;
     padding: 25px;
 }
@@ -32,11 +32,10 @@ margin-top: 50px;
 }
 .dev{
    display: flex;
-   justify-content: space-around;
+   justify-content: space-evenly;
 }
 .dev img{
     /* height: 25%; */
-    width: 35%;
-    margin-right: 50px;
+    /* margin-right: 50px; */
 
 }

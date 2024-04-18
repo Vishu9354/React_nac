@@ -1,6 +1,8 @@
 import React from 'react'
 import '../css/team.css'
 import "../css/font.css";
+import insta from "../images/insta.jpg"
+import linkdin from "../images/linkdin.jpg"
 
 
 export default function team(props) {
@@ -22,8 +24,9 @@ export default function team(props) {
     <h3>{member.name}</h3>
     </p>
     <p className='teamicon'>
-    <a href={member.instagram}><i class="fa-brands fa-instagram"></i></a>
-    <a href={member.Linkdin}><i class="fa-brands fa-linkedin"></i></a>
+    <a href={member.instagram}><i class=""><img src={insta} style={{height:"35px",width:"35x",borderRadius:"22%"}}/></i></a>
+    <a href={member.Linkdin}><i class=""><img src={linkdin} style={{height:"35px",width:"35px",borderRadius:"22%"}}/></i>
+</a>
     </p>
     </div>
   </div>

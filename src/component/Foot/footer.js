@@ -2,6 +2,8 @@ import React from "react";
 import '../css/footer.css'
 import logo from '../images/NAC_Navbar.png';
 import {Link} from "react-router-dom"
+import insta from "../images/insta.jpg"
+import iit from "../images/iit.png"
 export default function footer(){
     return(
         <>
@@ -29,24 +31,22 @@ export default function footer(){
           </Link>
             </div>
         <div className="usefullink">
-        <i class="fa-brands fa-instagram"></i>
+        <i class=""><img src={insta} style={{height:"45px",width:"45px",borderRadius:"22%"}}/></i>
       <p><a href="https://www.instagram.com/nac_iitjmu/">Instagram</a></p>
 
         </div>
         <div className="footerlocation">
             <p>Contact us</p>
-            <p> Phone: </p>
-            <p>Mail:</p>
-            <p>Monday to friday: </p>
-            <p>Address</p>
+            <p> Phone: 8700595372 </p>
+            <p>Mail: natureclub@iitjammu.ac.in</p>
+            <p>Address: Admin Block, IIT Jammu</p>
         </div>
 
         </div>
         <hr></hr>
         <div className="dev">
-          <p>
-        NAC IIT JAMMU Website by: <a><b>Vishal Kumar</b></a></p>
-        <img src={logo}></img>
+       <p> NAC IIT JAMMU Website by: <a><b>Vishal Kumar</b></a></p>
+        <img src={iit} style={{height:"150px",width:"450px"}}/>
         </div>
         
         </div>

@@ -15,16 +15,16 @@
             des:"Discover the mystery of why we climb with NAC! Trek through unspoiled wilderness, strengthen your bones, and create unforgettable memories. Join us on this journey!.",
             image:trek,
         },
-        // {
-        //     name:"RAFTING",
-        //     des:"Experience the rush of riding the waves with NAC and IIT Jammu! Raft through stunning landscapes, disconnect from the world, and live in the moment. Join us to embrace the thrill, conquer challenges, and make unforgettable memories on the water!",
-        //     // image:nac,
-        // },
-        // {
-        //     name:"CYCLING",
-        //     des:"Experience the thrill of cycling with NAC at IIT Jammu! Cycling combines adventure, skill, speed, and quick thinking, making it one of the best recreational sports. It's fast enough to satisfy the need for activity yet slow enough to appreciate the surroundings. Cycling allows you to spread your wings in a responsible and considerate atmosphere, promoting safety while embracing freedom. Plus, in a world plagued by pollution, cycling offers a greener way to commute. Join us for outdoor fun, education, and social growth in the safest way possible!",
-        //     // image:nac,
-        // },
+        {
+            name:"RAFTING",
+            des:"Experience the rush of riding the waves with NAC and IIT Jammu! Raft through stunning landscapes, disconnect from the world, and live in the moment. Join us to embrace the thrill, conquer challenges, and make unforgettable memories on the water!",
+            image:trek,
+        },
+        {
+            name:"CYCLING",
+            des:"Experience the thrill of cycling with NAC at IIT Jammu! Cycling combines adventure, skill, speed, and quick thinking, making it one of the best recreational sports. It's fast enough to satisfy the need for activity yet slow enough to appreciate the surroundings. Cycling allows you to spread your wings in a responsible and considerate atmosphere, promoting safety while embracing freedom. Plus, in a world plagued by pollution, cycling offers a greener way to commute. Join us for outdoor fun, education, and social growth in the safest way possible!",
+            image:trek,
+        },
         {
             name:"PLANTING",
             des:"Join hands with NAC at IIT Jammu to make a difference in the world! Planting trees is a simple yet effective way to combat the challenges of deforestation and pollution. By increasing the tree population, we can mitigate environmental issues and create a safer planet. Tree planting is not only cost-effective but also enhances the aesthetic appeal of our surroundings, allowing us to reconnect with nature. At NAC, we prioritize both adventure and environmental stewardship, offering opportunities to contribute to the beauty and welfare of nature through tree planting events. Together, let's make the Earth a more secure and sustainable place to call home.",

@@ -39,7 +39,7 @@ export default function carousel() {
       >
         <div className="container">
           <h2>DISCOVER</h2>
-          <p>Discover the untamed beauty and thrilling adventures that nature has in store for those who seek it.</p>
+          <p>Discover the untamed beauty and thrilling adventures</p><p> that nature has in store for those who seek it.</p>
         </div>
       </div>
       <div

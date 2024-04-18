@@ -13,6 +13,8 @@ import sakshi from '../images/sakshi.jpg'
 import dev from '../images/dev.jpg'
 import parth from '../images/parth.jpg'
 import yash from '../images/ysah.jpg'
+import sir from '../images/sir.jpg'
+
 export default function main() {
   const team =[
     {
@@ -22,7 +24,7 @@ export default function main() {
           name:"Dr.Yogesh Nimdeo",
           instagram:'#',
           Linkdin:'#',
-          image:nac,
+          image:sir,
         },
       ],
     },
