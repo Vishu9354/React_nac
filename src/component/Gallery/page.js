@@ -43,6 +43,22 @@ import bir9 from '../images/bir9.JPG'
 import birbilling from '../images/birbilling.JPG'
 import bungee from '../images/bungee.JPG'
 import cherish from '../images/cherush.jpg'
+import p1 from '../images/plantation_photos/p1.JPG'
+import p2 from '../images/plantation_photos/p2.JPG'
+import p3 from '../images/plantation_photos/p3.JPG'
+import p4 from '../images/plantation_photos/p4.JPG'
+import p5 from '../images/plantation_photos/p5.JPG'
+import p6 from '../images/plantation_photos/p6.JPG'
+import p7 from '../images/plantation_photos/p7.JPG'
+import p8 from '../images/plantation_photos/p8.JPG'
+import p9 from '../images/plantation_photos/p9.JPG'
+import p10 from '../images/plantation_photos/p10.JPG'
+import p11 from '../images/plantation_photos/p11.JPG'
+import p12 from '../images/plantation_photos/p12.JPG'
+import p13 from '../images/plantation_photos/p13.JPG'
+import p14 from '../images/plantation_photos/p14.JPG'
+import p15 from '../images/plantation_photos/p15.JPG'
+import p16 from '../images/plantation_photos/p16.JPG'
 import "../css/font.css";
 export default function page() {
   const gallery =[
@@ -50,6 +66,55 @@ export default function page() {
       image:nac,
   },
   {
+    image:p1,
+},
+ {
+  image:p2,
+},
+ {
+  image:p3,
+},
+ {
+  image:p4,
+}, 
+{
+  image:p5,
+}, 
+{
+  image:p6,
+}, 
+{
+  image:p7,
+}, 
+{
+  image:p8,
+}, 
+{
+  image:p9,
+}, 
+{
+  image:p10,
+}, 
+{
+  image:p11,
+}, 
+{
+  image:p12,
+}, 
+{
+  image:p13,
+}, 
+{
+  image:p14,
+}, 
+{
+  image:p15,
+}, 
+{
+  image:p16,
+},
+  
+{
     image:bir1,
 },
 {
