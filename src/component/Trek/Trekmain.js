@@ -6,11 +6,8 @@ import devi from '../images/devipindi2.jpeg'
 import kheermala from '../images/kheermala4.JPG'
 import hanumangarh from '../images/bir5.JPG'
 import nath from '../images/nathatop5.jpg'
-import Nathatop from './Nathatop.jsx'
-// import Trek from './treaks.js'
 
 import "../css/font.css";
-import {Route,Routes} from "react-router-dom"
 
 export default function treak() {
 
@@ -21,14 +18,15 @@ export default function treak() {
             size:"70",
             difficulty:"Easy-Moderate",
             image: nath,
-            page: "Nathatop"
         },
         {
             name:"Kheermala",
             Days:"1",
             size:"20",
             difficulty:"Easy-Moderate",
-            image: kheermala
+            image: kheermala,
+            page:"Kheermalap"
+
 
         },     
         {
@@ -36,7 +34,8 @@ export default function treak() {
             Days:"1",
             size:"40",
             difficulty:"Moderate",
-            image: devi
+            image: devi,
+            page:'devipage'
         },        
         {
             name:"Hanumangarh",

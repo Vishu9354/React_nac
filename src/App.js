@@ -9,6 +9,7 @@ import Contact from './component/contact/page.js'
 import Main from './component/Team/main.js'
 import Footer from './component/Foot/footer.js'
 import Nathatop from './component/Trek/Nathatop.jsx'
+import Kheermalap from './component/Trek/Kheermalap.jsx'
 import {Route,Routes} from "react-router-dom"
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Route path="/Gallery" element={<Gallery/>}/>
       <Route path="/Trek" element={<Trek/>}/>
       <Route path="Trek/Nathatop" element={<Nathatop/>}/>
+      <Route path="Trek/Kheermalap" element={<Kheermalap/>}/>
       <Route path="/Contact" element={<Contact/>}/>
       <Route path="/Main" element={<Main/>}/>
     </Routes>

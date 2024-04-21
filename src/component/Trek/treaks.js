@@ -7,7 +7,9 @@ import kheermala from '../images/kheermala4.JPG'
 import hanumangarh from '../images/bir5.JPG'
 import nath from '../images/nathatop5.jpg'
 import Nathatop from './Nathatop.jsx'
-import main from './Trekmain.js'
+import Kheermalap from './Kheermalap.jsx'
+import devipage from './devipage.jsx'
+// import devip from './devi.jsx'
 // import Trek from './treaks.js'
 
 
@@ -30,7 +32,9 @@ export default function treak() {
             Days:"1",
             size:"20",
             difficulty:"Easy-Moderate",
-            image: kheermala
+            image: kheermala,
+            page: "Kheermalap"
+            // page:"kheermalap"
 
         },     
         {
@@ -38,7 +42,8 @@ export default function treak() {
             Days:"1",
             size:"40",
             difficulty:"Moderate",
-            image: devi
+            image: devi,
+            page:'devipage'
         },        
         {
             name:"Hanumangarh",
@@ -73,6 +78,8 @@ export default function treak() {
    <Routes>
    <Route path="/" element={<TrekData treks={Trek}/>}/>
    <Route path="/Nathatop" element={<TrekData treks={Nathatop}/>}/>
+   <Route path="/Kheermalap" element={<TrekData treks={Kheermalap}/>}/>
+   <Route path="/devipage" element={<TrekData treks={devipage}/>}/>
    {/* <TrekData treks={Trek}/> */}
    </Routes>
    </>
