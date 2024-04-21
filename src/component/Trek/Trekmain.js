@@ -7,9 +7,7 @@ import kheermala from '../images/kheermala4.JPG'
 import hanumangarh from '../images/bir5.JPG'
 import nath from '../images/nathatop5.jpg'
 import Nathatop from './Nathatop.jsx'
-import main from './Trekmain.js'
 // import Trek from './treaks.js'
-
 
 import "../css/font.css";
 import {Route,Routes} from "react-router-dom"
@@ -69,12 +67,9 @@ export default function treak() {
 
   return (
    <>
-    <Carousel/>
-   <Routes>
-   <Route path="/" element={<TrekData treks={Trek}/>}/>
-   <Route path="/Nathatop" element={<TrekData treks={Nathatop}/>}/>
-   {/* <TrekData treks={Trek}/> */}
-   </Routes>
+   <Carousel/>
+   <TrekData treks={Trek}/>
    </>
   )
 }
+

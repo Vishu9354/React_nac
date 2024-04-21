@@ -1,10 +1,14 @@
 import React from 'react'
 import "../css/trek.css"
 import "../css/font.css";
+import {Route,Routes} from "react-router-dom"
+
+import {Link} from "react-router-dom"
 export default function Trekf(props) {
   return (
     <>
     <div>
+      <Link to={props.data.page}>
         <div className="card1" style={{width: '18rem'}}>
         <img src={props.data.image} className="card-img-top" alt="..." />
         <div className="cardbody1">
@@ -25,7 +29,9 @@ export default function Trekf(props) {
           </div>
         </div>
       </div>
+      </Link>
       </div>
+      
     </>
   )
 }
