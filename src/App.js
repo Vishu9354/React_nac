@@ -10,6 +10,10 @@ import Main from './component/Team/main.js'
 import Footer from './component/Foot/footer.js'
 import Nathatop from './component/Trek/Nathatop.jsx'
 import Kheermalap from './component/Trek/Kheermalap.jsx'
+import Kedarnath from './component/Trek/kedarnath.jsx'
+import Devipage from './component/Trek/Devipage.jsx'
+import Bir from './component/Trek/bir.jsx'
+import Triund from './component/Trek/triund.jsx'
 import {Route,Routes} from "react-router-dom"
 function App() {
 
@@ -25,6 +29,10 @@ function App() {
       <Route path="/Trek" element={<Trek/>}/>
       <Route path="Trek/Nathatop" element={<Nathatop/>}/>
       <Route path="Trek/Kheermalap" element={<Kheermalap/>}/>
+      <Route path="Trek/devipage" element={<Devipage/>}/>
+      <Route path="Trek/Bir" element={<Bir/>}/>
+      <Route path="Trek/Kedarnath" element={<Kedarnath/>}/>
+      <Route path="Trek/Triund" element={<Triund/>}/>
       <Route path="/Contact" element={<Contact/>}/>
       <Route path="/Main" element={<Main/>}/>
     </Routes>

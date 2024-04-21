@@ -3,16 +3,19 @@ import Carousel from './carousel.js'
 import k1 from '../images/kheemalaimage/1.jpg'
 import k2 from '../images/kheemalaimage/2.jpg'
 import k3 from '../images/kheemalaimage/3.jpg'
+import k4 from '../images/kheemalaimage/4.jpg'
+import k5 from '../images/kheemalaimage/5.jpg'
+import k6 from '../images/kheemalaimage/6.jpg'
 import '../css/trekdetail.css'
 export default function kheermalap() {
   return (
     <>
      {/* <Carousel/> */}
-     <div style={{height:'25vh',width:'100vw'}}></div>
+     <div style={{height:'20vh',width:'90w'}}></div>
     <div>
     <div style={{display:'flex',justifyContent:'center'}}>
         <div className='trekname'>
-            <h2>Kheermala</h2>
+            <h1>Kheermala</h1>
         </div>
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
@@ -21,6 +24,9 @@ export default function kheermalap() {
           <img src={k1} style={{width:"35vw"}}/>
           <img src={k2} style={{width:"35vw"}}/>
           <img src={k3} style={{width:"35vw"}}/>
+          <img src={k4} style={{width:"35vw"}}/>
+          <img src={k5} style={{width:"35vw"}}/>
+          <img src={k6} style={{width:"35vw"}}/>
           </div>
           <div className='trekdetail'>
             <p>

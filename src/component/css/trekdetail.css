@@ -3,21 +3,20 @@
     margin-bottom: 25px;
     border:2px solid black;
     width: 80vw;
-    height: 40px;
+    height: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .trekcontent{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 80vw;
-    /* margin-left: 5%; */
 }
 .trekimage{
     width: 30vw;
 }
 .trekdetail{
     width: 50vw;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }

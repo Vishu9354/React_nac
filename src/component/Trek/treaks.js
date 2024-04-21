@@ -8,7 +8,7 @@ import hanumangarh from '../images/bir5.JPG'
 import nath from '../images/nathatop5.jpg'
 import Nathatop from './Nathatop.jsx'
 import Kheermalap from './Kheermalap.jsx'
-import devipage from './devipage.jsx'
+import devipage from './Devipage.jsx'
 // import devip from './devi.jsx'
 // import Trek from './treaks.js'
 
@@ -50,7 +50,8 @@ export default function treak() {
             Days:"2",
             size:"60",
             difficulty:"Difficult",
-            image: hanumangarh
+            image: hanumangarh,
+            page:'Bir'
 
         },
 
@@ -59,7 +60,8 @@ export default function treak() {
             Days:"4",
             size:"17",
             difficulty:"Difficult",
-            image: nac
+            image: nac,
+            page:'kedarnath'
 
         },
         {
@@ -67,7 +69,8 @@ export default function treak() {
             Days:"2",
             size:"35",
             difficulty:"Moderate",
-            image: nac
+            image: nac,
+            page:'Triund'
 
         },
         ]

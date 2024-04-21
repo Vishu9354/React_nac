@@ -5,7 +5,7 @@
 }
 .teamcard{
     margin: 45px;
-    height: 450px;
+    height: 60vh;
 }
 .teammember{
     display: flex;
