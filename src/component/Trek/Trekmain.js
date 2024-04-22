@@ -6,7 +6,8 @@ import devi from '../images/devipindi2.jpeg'
 import kheermala from '../images/kheermala4.JPG'
 import hanumangarh from '../images/bir5.JPG'
 import nath from '../images/nathatop5.jpg'
-
+import g10 from '../images/g10.jpg'
+import k1 from '../images/triund_photo/1.jpg'
 import "../css/font.css";
 
 export default function treak() {
@@ -51,7 +52,7 @@ export default function treak() {
             Days:"4",
             size:"17",
             difficulty:"Difficult",
-            image: nac
+            image: g10
 
         },
         {
@@ -59,7 +60,7 @@ export default function treak() {
             Days:"2",
             size:"35",
             difficulty:"Moderate",
-            image: nac
+            image: k1
 
         },
         ]

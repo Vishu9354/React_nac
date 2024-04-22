@@ -60,11 +60,30 @@ import p13 from '../images/plantation_photos/p13.JPG'
 import p14 from '../images/plantation_photos/p14.JPG'
 import p15 from '../images/plantation_photos/p15.JPG'
 import p16 from '../images/plantation_photos/p16.JPG'
+import g1 from '../images/g1.jpg'
+import g2 from '../images/g2.jpg'
+import g3 from '../images/g3.jpg'
+import g4 from '../images/g4.jpg'
+import g5 from '../images/g5.jpg'
+import g6 from '../images/g6.jpg'
+import g7 from '../images/g7.jpg'
+import g8 from '../images/g8.jpg'
+import g9 from '../images/g9.jpg'
+import g10 from '../images/g10.jpg'
+import g11 from '../images/g11.jpg'
+import g12 from '../images/g12.jpg'
+import g13 from '../images/g13.jpg'
+import g14 from '../images/g14.jpg'
+import g15 from '../images/g15.jpg'
+import g16 from '../images/g16.jpg'
+import g17 from '../images/g17.jpg'
+// import g1 from '../images/g1.jpg'
+
 import "../css/font.css";
 export default function page() {
   const gallery =[
     {
-      image:nac,
+      image:g1,
   },
   
   {
@@ -118,6 +137,54 @@ export default function page() {
   
 {
     image:bir1,
+},
+{
+  image:g2,
+},
+{
+  image:g3,
+},
+{
+  image:g4,
+},
+{
+  image:g5,
+},
+{
+  image:g6,
+},
+{
+  image:g7,
+},
+{
+  image:g8,
+},
+{
+  image:g9,
+},
+{
+  image:g10,
+},
+{
+  image:g11,
+},
+{
+  image:g12,
+},
+{
+  image:g13,
+},
+{
+  image:g14,
+},
+{
+  image:g15,
+},
+{
+  image:g16,
+},
+{
+  image:g17,
 },
 {
   image:bir2,
