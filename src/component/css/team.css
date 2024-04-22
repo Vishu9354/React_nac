@@ -10,6 +10,12 @@
 .teammember{
     display: flex;
 }
+.teammember_2022{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+
+}
 .teamtitle{
     display: flex;
     justify-content: center;

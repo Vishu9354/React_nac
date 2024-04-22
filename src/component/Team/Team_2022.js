@@ -3,23 +3,24 @@ import '../css/team.css'
 import "../css/font.css";
 import insta from "../images/insta.jpg"
 import linkdin from "../images/linkdin.jpg"
+
 import {Link} from "react-router-dom"
 
 
 export default function team(props) {
   return (
     <>
-{/* <div className='year'>
-            <Link>2023-2024   </Link>
-            <Link to="Team_2022">2022-2023</Link>
-            </div> */}
+<div className='year' style={{display:'flex',justifyContent:'center',fontSize:'2rem'}} >
+            {/* <Link>2023-2024</Link> */}
+            <b>2022-2023</b>
+            </div>
 {props.team.map((position, index) => (
   
         <div key={index} className='teammain'> 
         
         <div className='teamdetail'>
           <div className='teamtitle'><h2> {position.title}</h2></div>
-          <div className='teammember'>
+          <div className='teammember_2022' style={{width:"50vw"}}>
             {position.teamdetail.map((member, memberIndex) => (
               <div key={memberIndex}>
        <div className="teamcard" style={{ width: "18rem" }}>
