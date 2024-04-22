@@ -44,9 +44,9 @@ export default function footer(){
 
         </div>
         <hr></hr>
-        <div className="dev">
-       <p> NAC IIT JAMMU Website by: <a><b>Vishal Kumar</b></a></p>
-        <img src={iit} style={{height:"150px",width:"450px"}}/>
+        <div className="dev" style={{color:'white',fontSize:'0.8rem'}}>
+       <p> <i class="fa-regular fa-copyright"></i>2024 NAC IIT JAMMU Website by: <a><b>Vishal Kumar</b></a></p>
+        <img src={iit} style={{height:"5%",width:"20%",marginLeft:'20%'}}/>
         </div>
         
         </div>

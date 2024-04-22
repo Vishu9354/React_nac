@@ -6,6 +6,8 @@
     import parag from '../images/paragliding.JPG'
     import bungee from '../images/bungee.JPG'
     import planting from '../images/plant8.JPG'
+    import cycling from '../images/cycling.jpg'
+
     import "../css/font.css";
 
     export default function Activites() {
@@ -23,7 +25,7 @@
         {
             name:"CYCLING",
             des:"Experience the thrill of cycling with NAC at IIT Jammu! Cycling combines adventure, skill, speed, and quick thinking, making it one of the best recreational sports. It's fast enough to satisfy the need for activity yet slow enough to appreciate the surroundings. Cycling allows you to spread your wings in a responsible and considerate atmosphere, promoting safety while embracing freedom. Plus, in a world plagued by pollution, cycling offers a greener way to commute. Join us for outdoor fun, education, and social growth in the safest way possible!",
-            image:trek,
+            image:cycling,
         },
         {
             name:"PLANTING",
