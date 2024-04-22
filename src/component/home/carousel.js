@@ -47,7 +47,7 @@ export default function carousel() {
         style={{ backgroundImage: `url(${CHERISH})`}}
       >
         <div className="container">
-          <h2>CHERISH</h2>
+          <h2 style={{color:'#023e8a'}}>CHERISH</h2>
           <p>It is not the mountain we conquer, but ourselves.</p>
         </div>
       </div>

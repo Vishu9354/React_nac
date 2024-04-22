@@ -1,10 +1,10 @@
 import React from 'react'
-import k1 from '../images/kheemalaimage/1.jpg'
-import k2 from '../images/kheemalaimage/2.jpg'
-import k3 from '../images/kheemalaimage/3.jpg'
-import k4 from '../images/kheemalaimage/4.jpg'
-import k5 from '../images/kheemalaimage/5.jpg'
-import k6 from '../images/kheemalaimage/6.jpg'
+import k1 from '../images/devi_photos/1.jpg'
+import k2 from '../images/devi_photos/2.jpg'
+// import k3 from '../images/kheemalaimage/3.jpg'
+// import k4 from '../images/kheemalaimage/4.jpg'
+// import k5 from '../images/kheemalaimage/5.jpg'
+// import k6 from '../images/kheemalaimage/6.jpg'
 import '../css/trekdetail.css'
 export default function kheermalap() {
   return (
@@ -13,7 +13,7 @@ export default function kheermalap() {
     <div>
     <div style={{display:'flex',justifyContent:'center'}}>
         <div className='trekname'>
-            <h1>Kheermala</h1>
+            <h1>Devi Pindi</h1>
         </div>
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
@@ -21,37 +21,23 @@ export default function kheermalap() {
           <div className='trekimage' style={{width:"45vw"}}>
           <img src={k1} alt="loading" style={{width:"35vw"}}/>
           <img src={k2} alt="loading" style={{width:"35vw"}}/>
-          <img src={k3} alt="loading" style={{width:"35vw"}}/>
-          <img src={k4} alt="loading" style={{width:"35vw"}}/>
-          <img src={k5} alt="loading" style={{width:"35vw"}}/>
-          <img src={k6} alt="loading" style={{width:"35vw"}}/>
+          {/* <img src={k3} alt="loading" style={{width:"35vw"}}/> */}
+          {/* <img src={k4} alt="loading" style={{width:"35vw"}}/> */}
+          {/* <img src={k5} alt="loading" style={{width:"35vw"}}/> */}
+          {/* <img src={k6} alt="loading" style={{width:"35vw"}}/> */}
           </div>
           <div className='trekdetail'>
             <p>
-            The Nature and Adventure Club of IIT Jammu organized a memorable Kheermala Trek on the 28th of January 2024. The purpose of the trek was to instill a sense of adventure among the students and to explore the undiscovered beauty of the Himalayas in the Jammu and Kashmir region.<br/>
-            <br/>
-
-The participants were treated to a spectacular adventure, immersing themselves in the pristine beauty of the Himalayan landscapes. The trek provided an opportunity for students to connect with nature, breathe in the fresh mountain air, and experience the thrill of conquering challenging terrains.<br/>
+            On October 24, 2023, the Nature and Adventure Club organized an exclusively girls' trek to the stunning Devi Pindi Trek. Covering a distance of 6.5 kilometers, this adventure was nothing short of thrilling and captivating.<br/>
 <br/>
-
-<b>Scenic Highlights:</b><br/>
-
-The Kheermala Trek unveiled breathtaking vistas, with majestic mountain ranges, dense forests, and serene meadows captivating the trekkers at every turn. The unexplored beauty of Jammu and Kashmir added a sense of novelty to the journey, making it a unique and enriching experience for all.
+The trek was a remarkable experience, filled with excitement and the beauty of the great outdoors. Participants embarked on a journey that not only tested their physical endurance but also provided an opportunity to connect with nature on a profound level. As the girls trekked their way to the top, they were rewarded with breathtaking scenic beauty that left them in awe. The panoramic views from the summit were nothing short of amazing, serving as a reminder of the natural wonders that surround us.
 <br/>
 <br/>
 
-<b>Trekking Experience:</b>
+This girls-only trek to Devi Pindi was more than just a physical challenge; it was a chance to bond with fellow adventurers, immerse oneself in the beauty of the natural world, and create lasting memories. It served as a testament to the power of women coming together to explore, appreciate, and protect the wonders of the great outdoors.<br/>
 <br/>
-The trek posed various challenges, testing the physical endurance and mental resilience of the participants. Crossing rugged terrains, navigating through narrow trails, and conquering steep ascents heightened the sense of accomplishment among the trekkers.
-<br/>
-<br/>
-The trek fostered strong bonds among the participants. Facing challenges together created a sense of camaraderie and teamwork, enhancing the overall experience of the trek. Shared moments of awe and triumph further strengthened the connections forged during the journey.
-<br/>
-<br/>
-<b>Conclusion:</b>
-<br/>
-<br/>
-The Kheermala Trek organized by the Nature and Adventure Club of IIT Jammu was a resounding success, leaving a lasting impact on the participants. The trek not only fulfilled its objective of promoting adventure among students but also provided a platform for unforgettable memories and personal growth. It was a testament to the beauty of nature and the spirit of exploration that thrives in the hearts of young adventurers.
+
+Special thanks to Dr. Yogesh Nimdeo (FIC - NAC, IIT Jammu), Col. Pratap Singh Rathore Mrs. Nandita Sharma and Mr. Akash Verma (NAC- Student Coordinator) for there consistence guidance during trek.
             </p>
           </div>
           </div>

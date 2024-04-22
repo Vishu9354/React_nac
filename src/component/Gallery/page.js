@@ -32,6 +32,7 @@ import nathatop2 from '../images/nathatop2.JPG'
 import nathatop4 from '../images/nathatop4.JPG'
 import nathatop24 from '../images/nathatop24.JPG'
 import bir1 from '../images/bir1.JPG'
+import bir10 from '../images/bir10.jpg'
 import bir2 from '../images/bir2.JPG'
 import bir3 from '../images/bir3.JPG'
 import bir4 from '../images/bir4.JPG'
@@ -68,6 +69,13 @@ export default function page() {
   {
     image:p1,
 },
+ 
+{
+  image:p11,
+},
+{
+  image:p9,
+}, 
  {
   image:p2,
 },
@@ -89,15 +97,7 @@ export default function page() {
 {
   image:p8,
 }, 
-{
-  image:p9,
-}, 
-{
-  image:p10,
-}, 
-{
-  image:p11,
-}, 
+ 
 {
   image:p12,
 }, 
@@ -140,6 +140,9 @@ export default function page() {
 },
 {
   image:bir9,
+},
+{
+  image:bir10,
 },
 {
   image:birbilling,

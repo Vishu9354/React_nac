@@ -14,8 +14,8 @@ export default function carousel() {
   <div className="carousel-inner">
     <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`,height:"100%",width:"100%"}}>
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
-               <div className="abt" style={{backgroundColor:'rgba(0,0,0,0.15)'}}>
-               <h2 style={{display:"flex",justifyContent:"center"}}>Gallery</h2> 
+               <div className="abt" >
+               <h2 style={{display:"flex",justifyContent:"center",color:'#654321'}}>Gallery</h2> 
                 <h4>Picture are taken to make moment unforgettable</h4> 
                </div>
                 
