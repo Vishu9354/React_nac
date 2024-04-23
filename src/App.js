@@ -31,7 +31,7 @@ function App() {
       <Route path="/Trek" element={<Trek/>}/>
       <Route path="Trek/Nathatop" element={<Nathatop/>}/>
       <Route path="Trek/Kheermalap" element={<Kheermalap/>}/>
-      <Route path="Trek/devipage" element={<Devipage/>}/>
+      <Route path="Trek/Devipage" element={<Devipage/>}/>
       <Route path="Trek/Bir" element={<Bir/>}/>
       <Route path="Trek/Kedarnath" element={<Kedarnath/>}/>
       <Route path="Trek/Triund" element={<Triund/>}/>
