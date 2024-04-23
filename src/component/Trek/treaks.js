@@ -9,7 +9,7 @@ import nath from '../images/nathatop5.jpg'
 import k1 from '../images/triund_photo/1.jpg'
 import Nathatop from './Nathatop.jsx'
 import Kheermalap from './Kheermalap.jsx'
-import devipage from './Devipage.jsx'
+import devipage from './devipage.jsx'
 import g10 from '../images/g11.jpg'
 
 // import devip from './devi.jsx'
