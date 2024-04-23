@@ -10,6 +10,8 @@ import k1 from '../images/triund_photo/1.jpg'
 import Nathatop from './Nathatop.jsx'
 import Kheermalap from './Kheermalap.jsx'
 import devipage from './Devipage.jsx'
+import g10 from '../images/g11.jpg'
+
 // import devip from './devi.jsx'
 // import Trek from './treaks.js'
 
@@ -61,7 +63,7 @@ export default function treak() {
             Days:"4",
             size:"17",
             difficulty:"Difficult",
-            image: nac,
+            image: g10,
             page:'kedarnath'
 
         },

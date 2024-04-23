@@ -20,6 +20,7 @@ export default function treak() {
             difficulty:"Easy-Moderate",
             image: nath,
         },
+        
         {
             name:"Kheermala",
             Days:"1",
@@ -27,8 +28,6 @@ export default function treak() {
             difficulty:"Easy-Moderate",
             image: kheermala,
             page:"Kheermalap"
-
-
         },     
         {
             name:"Devi Pindi",
@@ -44,16 +43,13 @@ export default function treak() {
             size:"60",
             difficulty:"Difficult",
             image: hanumangarh
-
         },
-
         {
             name:"Kedarnath",
             Days:"4",
             size:"17",
             difficulty:"Difficult",
             image: g10,
-
         },
         {
             name:"Triund",

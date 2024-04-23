@@ -1,5 +1,5 @@
 import React from 'react'
-import nac from '../images/NAC.jpg'
+import nac from '../images/g4.jpg'
 import "../css/font.css";
 
 export default function aboutpage() {
@@ -7,7 +7,7 @@ export default function aboutpage() {
   <>
   <div className='aboutmain'>
   <div className='aboutcontianer'>
-    <div className='image' style={{backgroundImage: `url(${nac})`, height:"600px",width:"70vw",backgroundSize:"cover",marign:"100px"}}>
+    <div className='image' style={{backgroundImage: `url(${nac})`, height:"700px",width:"70vw",backgroundSize:"cover",marign:"100px"}}>
     </div>
     <div className='about' style={{fontSize:"20px",marginTop:"25px"}}>
     <p>The Nature Club was founded in August 2020 by Dr Yogesh M Nimdeo. It includes various student-driven activities like trekking, nature exploring, workshops, wildlife photography, plantation and awareness programs etc. Later on, the adventurous sports activities carried out by Institute Sports Association were also clubbed with Nature Club in 2022, and the club was renamed Nature and Adventure Club, IIT Jammu (NAC). NAC nurtured nature exploring and adventure activities, which fostered adventure, trekking, and outward-bound activities among the science, and engineering professionals, students, and faculty communities of the Indian Institute of Technology Jammu.</p>
@@ -17,8 +17,6 @@ export default function aboutpage() {
 <p>· The Designing section</p>
 <p>· The Workshop Organisation Section</p>
 <p>Overall, the organisation of adventure activities, trekking, green workshops, and plantation programmes by the Nature and Adventure Club in the Institute bring harmony among the students towards nature, which awakened the spirit of adventure activities and plantation among the institute community.</p>
-
-
     </div>
   </div>
   </div>
