@@ -4,7 +4,7 @@
     align-items: center;
 }
 .teamcard{
-    margin-top: 45px;
+    margin: 45px;
     height: 60vh;
 }
 .teammember{
@@ -20,7 +20,7 @@
 .teamtitle{
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin: 25px;
 }
 .teamcard{
     border: 2px solid black;    
