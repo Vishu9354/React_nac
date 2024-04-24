@@ -16,6 +16,7 @@
     justify-content: center;
 
 }
+
 .teamtitle{
     display: flex;
     justify-content: center;
@@ -41,5 +42,13 @@
 @media screen and (max-width:1150px){
     .teammember{
         display: block;
+    }
+}
+@media screen and (max-width:900px) {
+    .teammember_2022{
+        display: grid;
+        grid-template-columns:100%;
+        justify-content: center;
+    
     }
 }

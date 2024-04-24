@@ -8,14 +8,16 @@ export default function carousel() {
     <div
   id="carouselExampleCaptions"
   className="carousel slide"
-  data-bs-ride="carousel"
+  data-bs-ride="carousel" 
 >
-  <div className="carousel-indicators">
+  <div className="carousel-indicators" >
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundImage: `url(${nac})`,height:"100%",width:"100%"}}>
+    <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundSize:'cover'}}>
+    <img src={nac} className="d-block w-100" alt="..." style={{height:'100%',width:'100%'}}/>
+
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
-               <div className="abt">
+               <div className="abt" style={{position:'absolute'}}>
                <h2 style={{display:"flex",justifyContent:"center",alignItems:"center"}}>Our Team</h2> 
                 <h4>Teamwork is the lifeline of great achievements</h4> 
                </div>
