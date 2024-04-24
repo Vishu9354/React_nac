@@ -7,7 +7,7 @@ export default function aboutpage() {
   <>
   <div className='aboutmain'>
   <div className='aboutcontianer'>
-    <div className='image' style={{ height:"700px",width:"70vw",backgroundSize:"cover",marign:"100px"}}>
+    <div className='image' style={{backgroundSize:"contain",marign:"100px"}}>
     <img src={nac} className="d-block w-100" alt="..." />
     </div>
     <div className='about' style={{fontSize:"20px",marginTop:"25px"}}>
