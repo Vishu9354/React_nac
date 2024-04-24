@@ -1,7 +1,13 @@
 .navbar-nav{
     margin-left:55%;
-    height: 10vh;       
+    /* height: 10vh;        */
 }
 .navbar-nav a{
     margin-top:25px;
+}
+@media screen and (max-width:1100px){
+    .navbar-nav{
+        margin-left:40%;
+        /* height: 10vh;        */
+    }
 }
