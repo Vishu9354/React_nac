@@ -182,11 +182,12 @@ margin: 0 0 10px;
     }
 }
 @media screen and (max-width:450px) {
-    .container .content{
-        padding: 0%;
+    .container .content{   
+            padding: 0%;
     }
     .item .content{
         left:00px;
+        width:200px;
     }
     .recent .maincont{
         height: 100vh;
@@ -194,11 +195,12 @@ margin: 0 0 10px;
     }
 }
 @media screen and (max-width:550px) {
-    .container .content{
-        padding: 0%;
+    .container .content{   
+            padding: 0%;
     }
     .item .content{
         left:00px;
+        width:200px;
     }
     .recent .maincont{
         height: 100vh;
@@ -206,11 +208,12 @@ margin: 0 0 10px;
     }
 }
 @media screen and (max-width:650px) {
-    .container .content{
-        padding: 0%;
+    .container .content{   
+            padding: 0%;
     }
     .item .content{
         left:00px;
+        width:200px;
     }
     .recent .maincont{
         height: 100vh;
