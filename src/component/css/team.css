@@ -49,6 +49,6 @@
         display: grid;
         grid-template-columns:100%;
         justify-content: center;
-        margin-right: 50px;
+        margin-right: 60px;
     }
 }
