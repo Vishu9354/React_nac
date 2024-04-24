@@ -4,7 +4,7 @@
     align-items: center;
 }
 .teamcard{
-    margin: 45px;
+    margin-top: 45px;
     height: 60vh;
 }
 .teammember{
@@ -49,6 +49,6 @@
         display: grid;
         grid-template-columns:100%;
         justify-content: center;
-    
+        margin-right: 50px;
     }
 }
