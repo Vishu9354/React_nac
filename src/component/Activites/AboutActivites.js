@@ -8,7 +8,7 @@ export default function AboutActivites(props) {
     <>
     <main>  
     <div className='main'>
-      <div className='row'>
+      <div className='activityrow'>
     { 
         props.activites.map((activity,i)=>(
             <ActivitesData data={activity} key={i}/>

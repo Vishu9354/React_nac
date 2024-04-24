@@ -3,7 +3,7 @@ import '../css/activity.css'
 export default function activitesdata(props) {
   return (
     <>
-      <div className='col-4'>
+
   <div className="flipcard">
   <div className="inner">
     <div className="front" style={{backgroundImage: `url(${props.data.image})`}}><h2>{props.data.name}</h2></div>
@@ -14,7 +14,6 @@ export default function activitesdata(props) {
 </div>
     </div>
   </div>
-</div>
 </div>
 </>
   )
