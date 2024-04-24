@@ -12,7 +12,7 @@ export default function home() {
     <Inaugration/>
     <Carousel/>
    <RecentEvent/>
-   <UpcomingEvent/>
+   {/* <UpcomingEvent/> */}
     </>
   )
 }

@@ -30,13 +30,14 @@ export default function carousel() {
         aria-label="Slide 3"
       />
     </div>
-    <div className="carousel-inner">
+    <div className="carousel-inner" >
       <div
         className="carousel-item active"
         style={{
-          backgroundImage: `url(${discover})`
+          backgroundImage: `url(${discover})`,backgroundSize:'cover',width:'100%'
         }}
       >
+        {/* <img src={discover} style={{height:'100%',width:'100%'}}/> */}
         <div className="container">
           <h2>DISCOVER</h2>
           <p>Discover the untamed beauty and thrilling adventures</p><p> that nature has in store for those who seek it.</p>
