@@ -9,7 +9,10 @@
     width: 100%;
     grid-template-columns: 25% 25% 25% 25%;
 }
-
+.image{
+    height: 180px;
+    width: 100%;
+}
 @media screen and (max-width:1250px){
     .galleryrow{
         display: grid;
