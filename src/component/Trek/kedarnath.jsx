@@ -1,10 +1,10 @@
 import React from 'react'
-import k1 from '../images/kheemalaimage/1.jpg'
-import k2 from '../images/kheemalaimage/2.jpg'
-import k3 from '../images/kheemalaimage/3.jpg'
-import k4 from '../images/kheemalaimage/4.jpg'
-import k5 from '../images/kheemalaimage/5.jpg'
-import k6 from '../images/kheemalaimage/6.jpg'
+import k1 from '../images/g8.jpg'
+import k2 from '../images/g10.jpg'
+import k3 from '../images/g11.jpg'
+import k4 from '../images/g12.jpg'
+// import k5 from '../images/5.jpg'
+// import k6 from '../images/6.jpg'
 import '../css/trekdetail.css'
 export default function kheermalap() {
   return (
@@ -13,7 +13,7 @@ export default function kheermalap() {
     <div>
     <div style={{display:'flex',justifyContent:'center'}}>
         <div className='trekname'>
-            <h1>Kheermala</h1>
+            <h1>Kedarnath</h1>
         </div>
         </div>
         <div style={{display:'flex',justifyContent:'center'}}>
@@ -23,8 +23,8 @@ export default function kheermalap() {
           <img src={k2} alt="loading" style={{width:"35vw"}}/>
           <img src={k3} alt="loading" style={{width:"35vw"}}/>
           <img src={k4} alt="loading" style={{width:"35vw"}}/>
-          <img src={k5} alt="loading" style={{width:"35vw"}}/>
-          <img src={k6} alt="loading" style={{width:"35vw"}}/>
+          {/* <img src={k5} alt="loading" style={{width:"35vw"}}/>
+          <img src={k6} alt="loading" style={{width:"35vw"}}/> */}
           </div>
           <div className='trekdetail'>
             <p>
