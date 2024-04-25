@@ -7,6 +7,8 @@
     import bungee from '../images/bungee.JPG'
     import planting from '../images/plant8.JPG'
     import cycling from '../images/cycling.jpg'
+    import g10 from '../images/g11.jpg'
+
 
     import "../css/font.css";
 
@@ -20,7 +22,7 @@
         {
             name:"RAFTING",
             des:"Experience the rush of riding the waves with NAC and IIT Jammu! Raft through stunning landscapes, disconnect from the world, and live in the moment. Join us to embrace the thrill, conquer challenges, and make unforgettable memories on the water!",
-            image:trek,
+            image:g10,
         },
         {
             name:"CYCLING",

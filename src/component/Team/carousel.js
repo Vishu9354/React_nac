@@ -1,5 +1,5 @@
 import React from 'react'
-import nac from '../images/team_ca.jpg'
+import nac from '../images/team_c.jpg'
 import "../css/font.css";
 import "../css/font.css";
 

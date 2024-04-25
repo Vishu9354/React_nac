@@ -15,7 +15,7 @@ export default function carousel() {
       <img src={nac} className="d-block w-100" alt="..." style={{height:'100%',width:'100%'}}/>
                <div className="abt" style={{backgroundColor:"rbga(0,0,0,0.5)",position:'absolute'}}>
                <h2 style={{display:"flex",justifyContent:"center"}}>About</h2> 
-                <h4>We Are Wanderers, We Are NAC</h4> 
+                <h4 style={{color:'black'}}>We Are Wanderers, We Are NAC</h4> 
                </div>
                 
       <div className="carousel-caption d-none d-md-block">
