@@ -3,6 +3,7 @@
     background-color: rgba(0, 0, 0, 0.6);
     margin-top: 150px;
     padding: 25px;
+    
 }
 .footermain{
     display: flex;
@@ -88,5 +89,8 @@ margin-top: 50px;
         height: 25%;
         width: 40%;
     }
-    
+    .footermain{
+        display: flex;
+        justify-content: space-between;
+    }
     }
