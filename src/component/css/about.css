@@ -6,7 +6,30 @@
 .aboutcontianer{
     width: 70vw;
    }
-
+.about{
+    font-size: 20px;
+    margin-top:40px;
+}
 .carousel-item .abt {
     color:white;
+}
+.carousel-item{
+    height:90vh;
+}
+.aboutcontianer .image{
+    height:700px;
+}
+
+@media screen and (max-width:600px) {
+    .carousel-item{
+        height:60vh;
+    }
+    .aboutcontianer .image{
+        height:35%;
+    }
+    .about{
+        font-size: 15px;
+        margin-top: 30px;
+        margin-bottom: 300px;
+    }
 }
