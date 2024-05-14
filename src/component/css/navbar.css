@@ -10,9 +10,37 @@
     margin-left: 45px;
 }
 
-@media screen and (max-width:1100px){
+@media screen and (max-width:1300px){
     .navbar-nav{
         margin-left:40%;
         /* height: 10vh;        */
     }
+}
+@media screen and (max-width:1200px){
+    .navbar-nav{
+        margin-left:30%;
+        /* height: 10vh;        */
+    }
+}
+@media screen and (max-width:1100px){
+    .navbar-nav{
+        margin-left:20%;
+        /* height: 10vh;        */
+    }
+}
+@media screen and (max-width:1000px){
+    .navbar-nav{
+        margin-left:10%;
+        /* height: 10vh;        */
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .container-fluid img{
+        width: 250px;
+        height: 100px;
+        margin-left: 45px;
+    }
+    
 }
