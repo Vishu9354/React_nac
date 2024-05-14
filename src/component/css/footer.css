@@ -24,6 +24,10 @@ margin-top: 50px;
 .usefullink i{
     font-size: 35px;
 }
+.usefullink i img{
+    height: 45px;
+    width: 45px;
+}
 .footernav a{
     color:white;
 }
@@ -33,4 +37,32 @@ margin-top: 50px;
 .dev{
    display: flex;
    justify-content: space-evenly;
+}
+.dev img{
+    height:5%;
+    width: 20%;
+}
+@media screen and (max-width:375px){
+.footer{
+    height: 350px;
+    margin-top: 75px;
+}
+.footer a{
+    font-size:10px;
+}
+.footer p{
+    font-size:10px;
+}
+.usefullink i{
+    font-size: 10px;
+}
+.usefullink i img{
+    height: 25px;
+    width: 25px;
+}
+.dev img{
+    height: 15%;
+    width: 35%;
+}
+
 }

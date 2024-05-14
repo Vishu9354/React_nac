@@ -31,7 +31,7 @@ export default function footer(){
           </Link>
             </div>
         <div className="usefullink">
-        <i class=""><img src={insta} style={{height:"45px",width:"45px",borderRadius:"22%"}}/></i>
+        <i class=""><img src={insta} style={{borderRadius:"22%"}}/></i>
       <p><a href="https://www.instagram.com/nac_iitjmu/">Instagram</a></p>
 
         </div>
@@ -46,7 +46,7 @@ export default function footer(){
         <hr></hr>
         <div className="dev" style={{color:'white',fontSize:'0.8rem'}}>
        <p> <i class="fa-regular fa-copyright"></i>2024 NAC IIT JAMMU Website by: <a><b>Vishal Kumar</b></a></p>
-        <img src={iit} style={{height:"5%",width:"20%",marginLeft:'20%'}}/>
+        <img src={iit} style={{marginLeft:'20%'}}/>
         </div>
         
         </div>
