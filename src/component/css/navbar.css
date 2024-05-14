@@ -44,3 +44,19 @@
     }
     
 }
+@media screen and (max-width:410px){
+    .container-fluid img{
+        width: 250px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    
+}
+@media screen and (max-width:375px){
+    .container-fluid img{
+        width: 200px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    
+}
