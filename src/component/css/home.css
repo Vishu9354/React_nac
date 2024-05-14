@@ -61,7 +61,7 @@ margin: 0 0 10px;
 }
 
 
-@media screen and (max-width:375px){
+@media screen and (max-width:400px){
 .carousel-inner .container h2{
     font-size: 45px;
 }
@@ -74,6 +74,20 @@ margin: 0 0 10px;
 }
 
 }
+
+@media screen and (max-width:600px){
+    .carousel-inner .container h2{
+        font-size: 55px;
+    }
+    .carousel-inner .container p{
+        font-size: 22px;
+    
+    }  
+    .carousel-item{
+        min-height: 60vh;
+    }
+    
+    }
 
 
 
@@ -240,17 +254,13 @@ margin: 0 0 10px;
         width: 97vw;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:600px){
     .item{
         width:150px;
     }
     .recent .container{
         width: 90vw;
     }
-    .recent .maincont{
-        margin: 0px;
-    }
-
 }
 .item .name{
     font-size: 40px;
