@@ -21,9 +21,11 @@ main{
     box-shadow: 0 30px 50px #dbdbdb;
     transition: 0.5s ease-in;
     height: 350px;
+    /* width: 18rem; */
     margin-left: 8vw;
     color: black;
     text-decoration: none;
+    /* margin-right: 250px; */
 }
 
 .card1 .detail{

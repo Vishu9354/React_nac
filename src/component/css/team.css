@@ -47,8 +47,8 @@
 @media screen and (max-width:900px) {
     .teammember_2022{
         display: grid;
-        grid-template-columns:100%;
+        grid-template-columns:185%;
         justify-content: center;
-        margin-right: 60px;
+        /* margin-right: 60px; */
     }
 }

@@ -9,7 +9,7 @@ export default function Trekf(props) {
     <>
     <div>
      
-        <div className="card1" style={{width: '18rem'}}>
+        <div className="card1" >
         <Link to={props.data.page}> <img src={props.data.image} className="card-img-top" alt="..." />  </Link>
         <div className="cardbody1">
           <div className="trektitle" ><h3 style={{marginLeft:"27px",marginTop:"10px", textDecoration:'none'}}>{props.data.name}</h3></div>

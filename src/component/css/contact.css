@@ -4,3 +4,13 @@
 .icon i{
     font-size: 70px;
 }
+.maincontact{
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (max-width:600px) {
+    .maincontact{
+        display: block;
+        margin-left: 100px;
+    }   
+}
