@@ -14,7 +14,7 @@ import Kedarnath from './component/Trek/kedarnath.jsx'
 import Devipage from './component/Trek/devipage.jsx'
 import Bir from './component/Trek/bir.jsx'
 import Triund from './component/Trek/triund.jsx'
-import Team_2022 from './component/Team/Team_2022.js'
+import Team_2022 from './component/Team/Team_2022.jsx'
 
 import {Route,Routes} from "react-router-dom"
 function App() {
@@ -36,8 +36,8 @@ function App() {
       <Route path="Trek/Kedarnath" element={<Kedarnath/>}/>
       <Route path="Trek/Triund" element={<Triund/>}/>
       <Route path="/Contact" element={<Contact/>}/>
-    <Route path="Team/Team_2022" element={<Team_2022/>}/>
       <Route path="/Main" element={<Main/>}/>
+      <Route path="Team_2022" element={<Team_2022/>}/>
 
     </Routes>
     <Footer/>

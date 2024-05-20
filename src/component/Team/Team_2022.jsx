@@ -7,12 +7,12 @@ import linkdin from "../images/linkdin.jpg"
 import {Link} from "react-router-dom"
 
 
-export default function team(props) {
+export default function team_2022(props) {
   return (
     <>
 <div className='year' style={{display:'flex',justifyContent:'center',fontSize:'2rem'}} >
-            {/* <Link>2023-2024</Link> */}
-            <b>2022-2023</b>
+            <Link>2023-2024</Link>
+            <Link>2022-2023</Link>
             </div>
 {props.team.map((position, index) => (
   

@@ -83,10 +83,6 @@ export default function treak() {
     <Carousel/>
    <Routes>
    <Route path="/" element={<TrekData treks={Trek}/>}/>
-   <Route path="/Nathatop" element={<TrekData treks={Nathatop}/>}/>
-   <Route path="/Kheermalap" element={<TrekData treks={Kheermalap}/>}/>
-   <Route path="/devipage" element={<TrekData treks={devipage}/>}/>
-   {/* <TrekData treks={Trek}/> */}
    </Routes>
    </>
   )

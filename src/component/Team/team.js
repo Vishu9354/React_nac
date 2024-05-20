@@ -10,8 +10,10 @@ export default function team(props) {
   return (
     <>
 <div className='year' style={{marginTop:'30px',display:'flex',justifyContent:'center',fontSize:'2rem'}} >
-            {/* <Link>2023-2024</Link> */}
-            <b>2023-2024</b>
+            <Link>2023-2024</Link>
+            <br/>
+            <br/>
+            <Link to="Team_2022">2022-2023</Link>
             </div>
 {props.team.map((position, index) => (
   
@@ -30,8 +32,8 @@ export default function team(props) {
     <h3>{member.name}</h3>
     </p>
     <p className='teamicon'>
-    <a href={member.instagram}><i class=""><img src={insta} style={{height:"35px",width:"35x",borderRadius:"22%"}}/></i></a>
-    <a href={member.Linkdin}><i class=""><img src={linkdin} style={{height:"35px",width:"35px",borderRadius:"22%"}}/></i>
+    <a href={member.instagram}><i className=""><img src={insta} style={{height:"35px",width:"35x",borderRadius:"22%"}}/></i></a>
+    <a href={member.Linkdin}><i className=""><img src={linkdin} style={{height:"35px",width:"35px",borderRadius:"22%"}}/></i>
 </a>
     </p>
     </div>

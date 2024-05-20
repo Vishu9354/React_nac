@@ -3,7 +3,7 @@ import Carousel from './carousel.js'
 import "../css/font.css";
 
 import Team from './team.js'
-import Team_2022 from './Team_2022.js'
+import Team_2022 from './Team_2022.jsx'
 import nac from '../images/NAC.jpg'
 import aakash from '../images/aakash.jpg'
 import sirja from '../images/sirja.jpg'
@@ -209,11 +209,11 @@ export default function main() {
     
     <>
     <Carousel/>
-    {/* <Routes>
+    <Routes>
     <Route path="/" element={ <Team team={team}/>}/>
-    <Route path="/Team_2022" element={<Team_2022 team={Team_2022}/>}/>
-    </Routes> */}
-    <Team team={team}/>
+    <Route path="/Team_2022" element={ <Team_2022 team={team_2022}/>}/>
+    </Routes>
+    {/* <Team team={team}/> */}
     <Team_2022 team={team_2022}/>
     </>
   )
