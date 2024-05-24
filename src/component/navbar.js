@@ -28,6 +28,7 @@ export default function navbar() {
           <Link className="nav-link" to="Trek">
             Treks
           </Link>
+          <Link className="nav-link">Initiatives</Link>
           <Link className="nav-link" to="/Gallery">
             Gallery
           </Link>
