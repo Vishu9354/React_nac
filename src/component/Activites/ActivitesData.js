@@ -20,7 +20,7 @@ export default function activitesdata(props) {
 <img src={props.data.image} alt="Loading"/>
 <div class="intro">
   <h3>{props.data.name}</h3>
-  <p><i class="fa-solid fa-eye">{props.data.des}</i></p>
+  <p><i>{props.data.des}</i></p>
 </div>
 </div>
 </>

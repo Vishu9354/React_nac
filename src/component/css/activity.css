@@ -172,7 +172,7 @@ main{
 }
 .intro{
   height: 400px;
-  width: 400px;
+  width: 300px;
   /* box-sizing: border-box; */
   position: relative;
   color: white;
@@ -221,7 +221,7 @@ main{
 
 .awardcard:hover .intro{
   /* height: 450px; */
-  bottom: 350px;
+  bottom: 400px;
   background-color: rgba(0, 0, 0, 0.278);
   
 }
