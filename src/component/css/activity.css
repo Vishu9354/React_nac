@@ -161,18 +161,18 @@ main{
 
 .awardcard{
   height:400px;
-  width:300px;
+  width:330px;
   overflow: hidden;
   transition: 0.5s;
 }
 .awardcard img{
-  width: 300px;
+  width: 330px;
   height: 400px;
   transition: all 0.5s linear;
 }
 .intro{
   height: 400px;
-  width: 300px;
+  width: 330px;
   /* box-sizing: border-box; */
   position: relative;
   color: white;
@@ -183,7 +183,7 @@ main{
 .awardcard .introofevent{
   display: none;
   height: 400px;
-  width: 300px;
+  width: 330px;
   position: absolute;
   background-color: whitesmoke;
   z-index: 100;
@@ -221,7 +221,7 @@ main{
 
 .awardcard:hover .intro{
   /* height: 450px; */
-  bottom: 400px;
+  bottom: 390px;
   background-color: rgba(0, 0, 0, 0.278);
   
 }
