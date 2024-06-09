@@ -4,7 +4,7 @@ export default function activitesdata(props) {
   return (
     <>
 
-  <div className="flipcard">
+  {/* <div className="flipcard">
   <div className="inner">
     <div className="front" style={{backgroundImage: `url(${props.data.image})`}}><h2>{props.data.name}</h2></div>
     <div className="back" >
@@ -14,6 +14,14 @@ export default function activitesdata(props) {
 </div>
     </div>
   </div>
+</div> */}
+
+<div class="awardcard">
+<img src={props.data.image} alt="Loading"/>
+<div class="intro">
+  <h3>{props.data.name}</h3>
+  <p><i class="fa-solid fa-eye">{props.data.des}</i></p>
+</div>
 </div>
 </>
   )

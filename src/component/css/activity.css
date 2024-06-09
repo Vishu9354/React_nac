@@ -146,3 +146,86 @@ main{
   font-size: 1rem;
 }
 }
+
+
+.awardcontainer{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 92%;
+  margin-left: 8%;
+}
+.awardcard{
+  margin: 25px;
+  /* margin-left: 25%;  */
+}
+
+.awardcard{
+  height:400px;
+  width:300px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.awardcard img{
+  width: 300px;
+  height: 400px;
+  transition: all 0.5s linear;
+}
+.intro{
+  height: 400px;
+  width: 400px;
+  /* box-sizing: border-box; */
+  position: relative;
+  color: white;
+  bottom: 100px;
+  transition: ease-in-out 0.5s;
+}
+
+.awardcard .introofevent{
+  display: none;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  background-color: whitesmoke;
+  z-index: 100;
+}
+.awardcard h3{
+  margin-left: 10px;
+}
+
+.awardcard .showevent{
+  display: block;
+  animation: show 0.5s;
+}
+@keyframes show {
+  0%{
+    opacity: 0;
+  }
+  100%{
+      opacity:1;
+  }
+}
+
+.intro p{
+  visibility: hidden;
+  opacity: 0;
+ }
+ .intro i{
+     display: flex;
+     justify-content: center;
+     font-size: 15px;
+     margin-left: 15px;
+ }
+.awardcard:hover{
+  cursor: pointer; 
+}
+
+.awardcard:hover .intro{
+  /* height: 450px; */
+  bottom: 350px;
+  background-color: rgba(0, 0, 0, 0.278);
+  
+}
+.awardcard:hover p{
+  opacity: 1;
+  visibility: visible;
+}
