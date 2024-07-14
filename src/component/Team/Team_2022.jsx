@@ -11,8 +11,8 @@ export default function team_2022(props) {
   return (
     <>
 <div className='year' style={{display:'flex',justifyContent:'center',fontSize:'2rem'}} >
-            <Link>2023-2024</Link>
-            <Link>2022-2023</Link>
+<Link  to="/Main">2023-2024</Link>
+            <Link to="/Team_2022">2022-2023</Link>
             </div>
 {props.team.map((position, index) => (
   
@@ -24,7 +24,7 @@ export default function team_2022(props) {
             {position.teamdetail.map((member, memberIndex) => (
               <div key={memberIndex}>
        <div className="teamcard" style={{ width: "18rem" }}>
-  <img src={member.image} className="card-img-top" alt="..." />
+  {/* <img src={member.image} className="card-img-top" alt="..." /> */}
   <div className="card-body">
     <div className='text'>
     <p className="card-text">

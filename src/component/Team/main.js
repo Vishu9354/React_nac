@@ -209,12 +209,8 @@ export default function main() {
     
     <>
     <Carousel/>
-    <Routes>
-    <Route path="/" element={ <Team team={team}/>}/>
-    <Route path="/Team_2022" element={ <Team_2022 team={team_2022}/>}/>
-    </Routes>
-    {/* <Team team={team}/> */}
-    <Team_2022 team={team_2022}/>
+    <Team team={team}/>
+
     </>
   )
 }

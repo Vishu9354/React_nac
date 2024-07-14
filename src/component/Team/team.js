@@ -13,7 +13,7 @@ export default function team(props) {
             <Link>2023-2024</Link>
             <br/>
             <br/>
-            <Link to="Team_2022">2022-2023</Link>
+            <Link to="/Team_2022">2022-2023</Link>
             </div>
 {props.team.map((position, index) => (
   
