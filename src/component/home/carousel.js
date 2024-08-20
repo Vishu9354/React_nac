@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/home.css'
-import discover from '../images/discover.jpg'
+import discover from '../images/bir_billing_photos/4.jpeg'
 import CHERISH from '../images/cherush.jpg'
 import PRESERVE from '../images/preseve.jpg'
 import "../css/font.css";
