@@ -1,6 +1,10 @@
 main{
     display: flex;
     justify-content: center;
+    background-image: url(../images/background\ mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem;
 }
 .main{
     margin-top: 25px;  
@@ -15,15 +19,28 @@ main{
     display: flex;
     justify-content: space-evenly;
 }
+.card1 img{
+    border-top-right-radius: 1rem;
 
+    border-top-left-radius: 1rem;
+}
 .card1{
+    opacity: 100%;
+    z-index: 2;
+    background-color:rgb(250, 245, 235);
     margin-top: 75px;
-    box-shadow: 0 30px 50px #dbdbdb;
-    transition: 0.5s ease-in;
+    box-shadow: 1px 1px 3px  gray
+, -1px 1px 3px gray
+, 1px -1px  gray
+, -1px -1px gray
+;
+    transition: 0.2s ease-in;
+    border-radius: 1rem;
     height: 350px;
     /* width: 18rem; */
     margin-left: 8vw;
-    color: black;
+    color: black
+;
     text-decoration: none;
     /* margin-right: 250px; */
 }
@@ -35,6 +52,7 @@ main{
 
  .card1:hover{
     transform: translateY(-20px);
+    transform: scale(1.1);
 }
 @media screen and (max-width:1000px){
     .trekrow{

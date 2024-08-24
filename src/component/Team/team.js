@@ -9,8 +9,8 @@ import {Link} from "react-router-dom"
 export default function team(props) {
   return (
     <>
-<div className='year' style={{marginTop:'30px',display:'flex',justifyContent:'center',fontSize:'2rem'}} >
-            <Link>2023-2024</Link>
+<div className='year' style={{display:'flex',justifyContent:'center',fontSize:'2rem'}} >
+            <Link style={{marginRight:'30px'}}>2023-2024</Link>
             <br/>
             <br/>
             <Link to="/Team_2022">2022-2023</Link>

@@ -1,7 +1,8 @@
 
 .carousel-item{
     min-height: 90vh;
-    background-size: cover;
+    background-size: conver;
+    /* background-color: orange; */
     /* aspect-ratio:3/2; */
 }
 .carousel-item:before{
@@ -11,8 +12,9 @@
     top: 0;
     width: 100%;
     height:100%;
-    background-color: rgba(0,0,0,0.5);
+    /* background-color: rgba(0,0,0,0.5); */
     z-index: -1;
+    /* background-color: orange; */
 }
 .carousel-item .container{
     position: absolute;
@@ -102,7 +104,7 @@ margin: 0 0 10px;
 }
 .recent .maincont{
     margin-top: 45px;
-    box-shadow:  0 30px 50px #505050;
+    box-shadow:  0 3px 5px #505050;
     height: 100vh;
     width: 97vw;
     /* margin-bottom: 25px; */
@@ -147,6 +149,7 @@ margin: 0 0 10px;
 .item{
     width:200px;
     height:300px;
+    border-radius: 2;
     background-position: 50% 50%;
     display: inline-block;
     transition: 0.5s;
@@ -156,14 +159,14 @@ margin: 0 0 10px;
     top:50%;
     transform: translate(0,-50%);
     border-radius: 20px;
-    box-shadow:  0 30px 50px #505050;
+    box-shadow:  0 3px 50px #505050;
 }
 .item:nth-child(1),
 .item:nth-child(2){
     left:0;
     top:0;
     transform: translate(0,0);
-    border-radius: 0;
+    border-radius: 2;
     width:100%;
     height:100%;
     box-shadow: none;
@@ -329,7 +332,7 @@ margin: 0 0 10px;
     transform: translate(-55%,0%);
     margin-left: 80px;
     display: flex;
-    box-shadow:  0 30px 50px #505050;
+    box-shadow:  0 3px 5px #505050;
 }
 .upcoming .content .title{
     margin-top: 50px;
@@ -388,3 +391,4 @@ margin: 0 0 10px;
         margin-bottom: 100vh;
     }
 }
+

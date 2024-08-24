@@ -5,13 +5,13 @@
 }
 .teamcard{
     margin: 45px;
-    height: 65vh;
+    height: 50vh;
 }
 .teammember{
     display: flex;
 }
 .teammember_2022{
-    display: grid;
+    display: flex;
     grid-template-columns: 50% 50%;
     justify-content: center;
 
@@ -41,7 +41,7 @@
 }
 @media screen and (max-width:1150px){
     .teammember{
-        display: block;
+        display: flex;
     }
 }
 @media screen and (max-width:900px) {

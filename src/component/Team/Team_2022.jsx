@@ -11,7 +11,7 @@ export default function team_2022(props) {
   return (
     <>
 <div className='year' style={{display:'flex',justifyContent:'center',fontSize:'2rem'}} >
-<Link  to="/Main">2023-2024</Link>
+<Link  to="/Main" style={{marginRight:'30px'}}>2023-2024</Link>
             <Link to="/Team_2022">2022-2023</Link>
             </div>
 {props.team.map((position, index) => (
