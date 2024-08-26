@@ -45,7 +45,7 @@ export default function carousel() {
       </div>
       <div
         className="carousel-item"
-        style={{ backgroundImage: `url(${CHERISH})`}}
+        style={{ backgroundImage: `url(${CHERISH})`, backgroundRepeat:'no-repeat',backgroundSize: 'cover'}}
       >
         <div className="container">
           <h2 style={{color:'#023e8a'}}>CHERISH</h2>
@@ -55,7 +55,9 @@ export default function carousel() {
       <div
         className="carousel-item"
         style={{
-          backgroundImage: `url(${PRESERVE})`
+          backgroundImage: `url(${PRESERVE})`,
+          backgroundRepeat:'no-repeat',
+          backgroundSize: 'cover'
         }}
       >
         <div className="container">

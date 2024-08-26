@@ -16,9 +16,9 @@ export default function carousel() {
     <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundSize:'cover'}}>
     <img src={nac} className="d-block w-100" alt="..." style={{height:'100%',width:'100%'}}/>
 
-      {/* <img src="..." className="d-block w-100" alt="..." /> */}
+      { <img src="..." className="d-block w-100" alt="..." /> }
                <div className="abt" style={{position:'absolute'}}>
-               <h2 style={{display:"flex",justifyContent:"center",alignItems:"center"}}>Our Team</h2> 
+               <h2 style={{display:"flex",justifyContent:"center",marginTop:'-10rem'}}>Our Team</h2> 
                 <h4>Teamwork is the lifeline of great achievements</h4> 
                </div>
                 

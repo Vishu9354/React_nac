@@ -9,11 +9,14 @@ import {Link} from "react-router-dom"
 export default function team(props) {
   return (
     <>
-<div className='year' style={{display:'flex',justifyContent:'center',fontSize:'2rem'}} >
-            <Link style={{marginRight:'30px'}}>2023-2024</Link>
+<div className='year' style={{display:'flex',justifyContent:'center',fontSize:'2rem', marginTop:'2rem'}} >
+            <Link to="/Team_2024" style={{marginRight:'30px',textDecoration:'none'}}>2024-2025</Link>
             <br/>
             <br/>
-            <Link to="/Team_2022">2022-2023</Link>
+            <Link style={{marginRight:'30px',textDecoration:'none'}}>2023-2024</Link>
+            <br/>
+            <br/>
+            <Link to="/Team_2022"style={{textDecoration:'none'}}>2022-2023</Link>
             </div>
 {props.team.map((position, index) => (
   

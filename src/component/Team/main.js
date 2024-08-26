@@ -4,6 +4,7 @@ import "../css/font.css";
 
 import Team from './team.js'
 import Team_2022 from './Team_2022.jsx'
+
 import nac from '../images/NAC.jpg'
 import aakash from '../images/aakash.jpg'
 import sirja from '../images/sirja.jpg'
@@ -26,6 +27,127 @@ import vansh from '../images/vansh_2022.jpg'
 import {Route,Routes} from "react-router-dom"
 
 export default function main() {
+  const team_2024=[
+    {
+      title:"Faculty In-Charge",
+      teamdetail:[
+        {
+          name:"Dr.Yogesh Nimdeo",
+          instagram:'#',
+          Linkdin:'#',
+          image:sir,
+        },
+      ],
+    },
+    {
+      title:"Co-ordinator",
+      teamdetail:[
+        {
+          name:"Soham Grover",
+          instagram:'#',
+          Linkdin:'#',
+          image:aakash,
+
+        },
+      ],
+    },
+    {
+      title:"Head of Event Management",
+      teamdetail:[
+        {
+          name:"Yash Pandey",
+          instagram:'#',
+          Linkdin:'#',
+          image:yashP,
+
+        },
+        {
+          name:"Khushboo",
+          instagram:'#',
+          Linkdin:'#',
+          image:Khushboo,
+
+        },
+        {
+          name:"Abhay Raghav",
+          instagram:'#',
+          Linkdin:'#',
+          image:cr,
+
+        },
+      ],
+    },
+
+    {
+      title:"Head of Designing and Content",
+      teamdetail:[
+ 
+        {
+          name:"Srija Shukla",
+          instagram:'https://www.instagram.com/srijashuklaa?igsh=eGxuNDJtamt2Z252',
+          Linkdin:'#',
+          image:sirja,
+        },
+      ],
+    },
+
+   
+    {
+      title:"Head of Inventory and Logistics",
+      teamdetail:[
+        {
+          name:"Sakshi Srivastava",
+          instagram:'#',
+          Linkdin:'#',
+          image:sakshi,
+
+        },
+        {
+          name:"Dev Banitia",
+          instagram:'#',
+          Linkdin:'#',
+          image:dev,
+
+        },
+      ],
+    },
+    {
+      title:"Head of Media Coverage",
+      teamdetail:[
+        {
+          name:"Yash Bhajbhuje",
+          instagram:'#',
+          Linkdin:'#',
+          image:yash,
+
+        },
+      ],
+    },
+    {
+      title:"Head of Nature Events",
+      teamdetail:[
+        {
+          name:"Abhay Raghav",
+          instagram:'#',
+          Linkdin:'#',
+          image:cr,
+
+        },
+      ],
+    },
+    {
+      title:"Head of High Altitude Trek",
+      teamdetail:[
+        {
+          name:"Parth Manjare",
+          instagram:'#',
+          Linkdin:'#',
+          image:parth,
+
+        },
+      ],
+    },
+  ]
   const team =[
     {
       title:"Faculty In-Charge",
@@ -148,6 +270,7 @@ export default function main() {
     },
     
   ]
+  
   const team_2022 =[
   
     {
@@ -203,14 +326,13 @@ export default function main() {
           image:vatsal,
         },
       ],
-    },    
+    },
   ]
   return (
     
     <>
     <Carousel/>
     <Team team={team}/>
-
     </>
   )
 }

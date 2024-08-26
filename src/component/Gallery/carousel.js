@@ -16,9 +16,9 @@ export default function carousel() {
       {/* <img src="..." className="d-block w-100" alt="..." /> */}
     <img src={nac} className="d-block w-100" alt="..." style={{height:'100%',width:'100%'}}/>
 
-               <div className="abt" style={{position:'absolute'}}>
-               <h2 style={{display:"flex",justifyContent:"center",color:'#654321'}}>Gallery</h2> 
-                <h4>Picture are taken to make moment unforgettable</h4> 
+               <div className="abt" style={{position:'absolute', paddingTop:'10rem'}}>
+               <h2 style={{display:"flex",justifyContent:"center",color:'white'}}>Gallery</h2> 
+              <h4>Picture are taken to make moment unforgettable</h4> 
                </div>
                 
       <div className="carousel-caption d-none d-md-block">

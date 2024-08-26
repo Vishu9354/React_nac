@@ -7,8 +7,8 @@ import iit from "../images/iit.png"
 export default function footer(){
     return(
         <>
-        <div className="footer">
-        <div className="footermain">
+        <div className="footer" >
+        <div className="footermain" style={{display:"flex", justifyContent:'space-between', paddingLeft:'10rem',paddingRight:'10rem'}}>
             
             <div className="footernav">
             <Link className="nav-link active" aria-current="page" to="/About">
@@ -26,19 +26,14 @@ export default function footer(){
           <Link className="nav-link" to="Main">
             Team
           </Link>
-          <Link className="nav-link" to="/Contact">
+          {/* <Link className="nav-link" to="/Contact">
             Contact Us
-          </Link>
+          </Link> */}
             </div>
-        <div className="usefullink">
-        <i class=""><img src={insta} style={{borderRadius:"22%"}}/></i>
-      <p><a href="https://www.instagram.com/nac_iitjmu/">Instagram</a></p>
-
-        </div>
         <div className="footerlocation">
             <p>Contact us</p>
-            <p> Phone: 8700595372 </p>
-            <p>Mail: natureclub@iitjammu.ac.in</p>
+            <p> Phone: 9149706989 </p>
+            <p><a href="mailto:natureclub@iitjammu.ac.in">Mail: nature.adventure@iitjammu.ac.in</a></p>
             <p>Address: Admin Block, IIT Jammu</p>
         </div>
 

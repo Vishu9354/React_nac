@@ -37,9 +37,9 @@ export default function navbar() {
           <Link className="nav-link" to="/Main">
             Team
           </Link>
-          <Link className="nav-link" to="/Contact">
+          {/* <Link className="nav-link" to="/Contact">
             Contact Us
-          </Link>
+          </Link> */}
         </div>
       </div>
     </div>

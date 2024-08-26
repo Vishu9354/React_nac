@@ -7,10 +7,10 @@ import linkdin from "../images/linkdin.jpg"
 import {Link} from "react-router-dom"
 
 
-export default function team_2022(props) {
+export default function team_2024(props) {
   return (
     <>
-<div className='year' style={{display:'flex',justifyContent:'center',fontSize:'2rem', marginTop:'2rem'}} >
+<div className='year' style={{display:'flex',justifyContent:'center',fontSize:'2rem', marginTop:'2rem', textDecoration:'none'}} >
             <Link to="/Team_2024" style={{marginRight:'30px',textDecoration:'none'}}>2024-2025</Link>
             <br/>
             <br/>
@@ -25,12 +25,12 @@ export default function team_2022(props) {
         
         <div className='teamdetail'>
           <div className='teamtitle'><h2> {position.title}</h2></div>
-          <div className='teammember_2022' style={{width:"50vw"}}>
+          <div className='teammember_2024' style={{width:"50vw"}}>
             {position.teamdetail.map((member, memberIndex) => (
               <div key={memberIndex}>
        <div className="teamcard" style={{ width: "18rem" }}>
   {<img src={member.image} className="card-img-top" alt="..." />}
-  <div className="card-body" style={{borderRadius:'2rem'}}>
+  <div className="card-body">
     <div className='text'>
     <p className="card-text">
     <h3>{member.name}</h3>
@@ -48,7 +48,7 @@ export default function team_2022(props) {
             </div>
         </div>
         </div>
-      ))}
+       ))}
     </>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import Carousel from './carousel'
-import Team from './Team_2022.jsx'
+import Team_2022 from './Team_2022.jsx'
 
 
 import abhi from '../images/abhishek_2022.jpg' 
@@ -71,7 +71,7 @@ export default function Team22_main() {
   return (
     <>
     <Carousel/>
-    <Team team={team_2022}/>
+    <Team_2022 team={team_2022}/>
     </>
   )
 }
