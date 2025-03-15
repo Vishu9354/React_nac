@@ -8,7 +8,7 @@ export default function footer(){
     return(
         <>
         <div className="footer" >
-        <div className="footermain" style={{display:"flex", justifyContent:'space-between', paddingLeft:'10rem',paddingRight:'10rem'}}>
+        <div className="footermain" style={{}}>
             
             <div className="footernav">
             <Link className="nav-link active" aria-current="page" to="/About">

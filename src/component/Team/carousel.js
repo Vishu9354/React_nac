@@ -14,7 +14,7 @@ export default function carousel() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" style={{display:"flex",alignItems:"center",justifyContent:"Center",backgroundSize:'cover'}}>
-    <img src={nac} className="d-block w-100" alt="..." style={{height:'100%',width:'100%'}}/>
+    <img src={nac} className="d-block w-100" alt="..." style={{}}/>
 
       { <img src="..." className="d-block w-100" alt="..." /> }
                <div className="abt" style={{position:'absolute'}}>

@@ -12,7 +12,7 @@ export default function home() {
     <>
     {/* <Inaugration/>*/}
     <Carousel/>
-    { <Initiatives/>}
+    {/* { <Initiatives/>} */}
    <RecentEvent/>
    { <UpcomingEvent/> }
     </>

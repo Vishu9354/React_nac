@@ -34,7 +34,7 @@ export default function carousel() {
       <div
         className="carousel-item active"
         style={{
-          backgroundImage: `url(${discover})`,backgroundSize:'cover',width:'100%'
+          backgroundImage: `url(${discover})`,backgroundSize:'cover'
         }}
       >
         {/* <img src={discover} style={{height:'100%',width:'100%'}}/> */}
